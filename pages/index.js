@@ -16,6 +16,10 @@ export default function Home() {
         <p className="description">
           Generated formula calendar for subscribe all translations
         </p>
+
+        <p className="description">
+            <a href="/calendar">Go to web-calendar!</a>
+        </p>
       </main>
 
       <style jsx>{`
@@ -38,8 +42,12 @@ export default function Home() {
         }
 
         a {
-          color: inherit;
+          color: blue;
           text-decoration: none;
+        }
+        
+        a:hover {
+          text-decoration: underline;
         }
 
         .title,

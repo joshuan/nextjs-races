@@ -1,0 +1,1047 @@
+[
+    {
+        "uid": "2021-09-10-f1-p1",
+        "category": "f1",
+        "city": "Монца",
+        "name": "Первая сессия свободных заездов",
+        "date": "10.09.2021",
+        "startTime": "15:30",
+        "endTime": "16:30",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398676_translation_Gran_pri_Italii_Svobodnaja_praktika_1",
+                "commentator": "Владимир Башмаков",
+                "channel": "Sportbox",
+                "type": "online",
+                "startTime": "15:25",
+                "startDate": "2021-09-10T12:25:00.000Z",
+                "endDate": "2021-09-10T13:30:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/arena",
+                "commentator": "Владимир Башмаков",
+                "channel": "Матч! Арена",
+                "type": "online",
+                "startTime": "15:25",
+                "startDate": "2021-09-10T12:25:00.000Z",
+                "endDate": "2021-09-10T13:30:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-10T12:30:00.000Z",
+        "endDate": "2021-09-10T13:30:00.000Z"
+    },
+    {
+        "uid": "2021-09-10-f1-q",
+        "category": "f1",
+        "city": "Монца",
+        "name": "Квалифицаия",
+        "date": "10.09.2021",
+        "startTime": "19:00",
+        "endTime": "20:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398687_translation_Gran_pri_Italii_Kvalifikacija",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startTime": "18:55",
+                "startDate": "2021-09-10T15:55:00.000Z",
+                "endDate": "2021-09-10T17:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/arena",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! Арена",
+                "type": "online",
+                "startTime": "18:55",
+                "startDate": "2021-09-10T15:55:00.000Z",
+                "endDate": "2021-09-10T17:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-10T16:00:00.000Z",
+        "endDate": "2021-09-10T17:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-11-f1-p2",
+        "category": "f1",
+        "city": "Монца",
+        "name": "Вторая сессия свободных заездов",
+        "date": "11.09.2021",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398693_translation_Gran_pri_Italii_Svobodnaja_praktika_2",
+                "commentator": "Владимир Башмаков",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-11T10:00:00.000Z",
+                "endDate": "2021-09-11T11:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/arena",
+                "commentator": "Владимир Башмаков",
+                "channel": "Матч! Арена",
+                "type": "online",
+                "startDate": "2021-09-11T10:00:00.000Z",
+                "endDate": "2021-09-11T11:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-11T10:00:00.000Z",
+        "endDate": "2021-09-11T11:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-11-f1-sprint",
+        "category": "f1",
+        "city": "Монца",
+        "name": "Спринт-квалификация",
+        "date": "11.09.2021",
+        "startTime": "17:30",
+        "endTime": "18:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398696_translation_Gran_pri_Italii_Sprint_kvalifikacija",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startTime": "17:25",
+                "startDate": "2021-09-11T14:25:00.000Z",
+                "endDate": "2021-09-11T15:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/matchtv",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "17:25",
+                "startDate": "2021-09-11T14:25:00.000Z",
+                "endDate": "2021-09-11T15:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-11T14:30:00.000Z",
+        "endDate": "2021-09-11T15:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-11-f2-race1",
+        "category": "f2",
+        "city": "Монца",
+        "name": "1-я гонка",
+        "date": "11.09.2021",
+        "startTime": "09:45",
+        "endTime": "11:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1398923_translation_FORMULA_2_Gran_pri_Italii_Gonka_1",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-11T06:45:00.000Z",
+                "endDate": "2021-09-11T08:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/arena",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! Арена",
+                "type": "online",
+                "startDate": "2021-09-11T06:45:00.000Z",
+                "endDate": "2021-09-11T08:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-11T06:45:00.000Z",
+        "endDate": "2021-09-11T08:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-11-f2-race2",
+        "category": "f2",
+        "city": "Монца",
+        "name": "2-я гонка",
+        "date": "11.09.2021",
+        "startTime": "15:45",
+        "endTime": "17:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1399239_translation_Formula_2_Gran_pri_Italii_Gonka_2",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-11T12:45:00.000Z",
+                "endDate": "2021-09-11T14:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/arena",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "date": "12.09.2021",
+                "startTime": "01:00",
+                "endTime": "02:00",
+                "channel": "Матч! Арена",
+                "type": "record",
+                "startDate": "2021-09-11T22:00:00.000Z",
+                "endDate": "2021-09-11T23:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-11T12:45:00.000Z",
+        "endDate": "2021-09-11T14:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-12-f1-race",
+        "category": "f1",
+        "city": "Монца",
+        "name": "Гран-При Италии",
+        "date": "12.09.2021",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398702_translation_Gran_pri_Italii",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startTime": "15:40",
+                "startDate": "2021-09-12T12:40:00.000Z",
+                "endDate": "2021-09-12T15:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/matchtv",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "15:40",
+                "startDate": "2021-09-12T12:40:00.000Z",
+                "endDate": "2021-09-12T15:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-12T13:00:00.000Z",
+        "endDate": "2021-09-12T15:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-12-f2-race3",
+        "category": "f2",
+        "city": "Монца",
+        "name": "3-я гонка",
+        "date": "12.09.2021",
+        "startTime": "11:30",
+        "endTime": "12:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1398924_translation_FORMULA_2_Gran_pri_Italii_Gonka_3",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "11:20",
+                "startDate": "2021-09-12T08:20:00.000Z",
+                "endDate": "2021-09-12T09:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-12T08:30:00.000Z",
+        "endDate": "2021-09-12T09:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-24-f1-p1",
+        "category": "f1",
+        "city": "Сочи",
+        "name": "Первая сессия свободных заездов",
+        "date": "24.09.2021",
+        "startTime": "11:30",
+        "endTime": "12:30",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1405416_translation_Gran_pri_Rossii_Svobodnaja_praktika_1",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-24T08:30:00.000Z",
+                "endDate": "2021-09-24T09:30:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/matchtv",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "11:25",
+                "startDate": "2021-09-24T08:25:00.000Z",
+                "endDate": "2021-09-24T09:30:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-24T08:30:00.000Z",
+        "endDate": "2021-09-24T09:30:00.000Z"
+    },
+    {
+        "uid": "2021-09-24-f1-p2",
+        "category": "f1",
+        "city": "Сочи",
+        "name": "Вторая сессия свободных заездов",
+        "date": "24.09.2021",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1405421_translation_Gran_pri_Rossii_Svobodnaja_praktika_2",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-24T12:00:00.000Z",
+                "endDate": "2021-09-24T13:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/matchtv",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "14:55",
+                "startDate": "2021-09-24T11:55:00.000Z",
+                "endDate": "2021-09-24T13:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-24T12:00:00.000Z",
+        "endDate": "2021-09-24T13:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-24-f2-p1",
+        "category": "f2",
+        "city": "Сочи",
+        "name": "Практика",
+        "date": "24.09.2021",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1405414_translation_Formula_2_Gran_pri_Rossii_Svobodnaja_praktika",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-24T07:00:00.000Z",
+                "endDate": "2021-09-24T08:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "10:00",
+                "startDate": "2021-09-24T07:00:00.000Z",
+                "endDate": "2021-09-24T08:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-24T07:00:00.000Z",
+        "endDate": "2021-09-24T08:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-24-f2-q",
+        "category": "f2",
+        "city": "Сочи",
+        "name": "Квалификация",
+        "date": "24.09.2021",
+        "startTime": "16:20",
+        "endTime": "17:20",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1405418_translation_Formula_2_Gran_pri_Rossii_Kvalifikacija",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-24T13:20:00.000Z",
+                "endDate": "2021-09-24T14:20:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "16:20",
+                "startDate": "2021-09-24T13:20:00.000Z",
+                "endDate": "2021-09-24T14:20:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-24T13:20:00.000Z",
+        "endDate": "2021-09-24T14:20:00.000Z"
+    },
+    {
+        "uid": "2021-09-24-f3-p1",
+        "category": "f3",
+        "city": "Сочи",
+        "name": "Практика",
+        "date": "24.09.2021",
+        "startTime": "9:00",
+        "endTime": "10:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-24T06:00:00.000Z",
+                "endDate": "2021-09-24T07:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "8:50",
+                "startDate": "2021-09-24T05:50:00.000Z",
+                "endDate": "2021-09-24T07:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-24T06:00:00.000Z",
+        "endDate": "2021-09-24T07:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-24-f3-q",
+        "category": "f3",
+        "city": "Сочи",
+        "name": "Квалификация",
+        "date": "24.09.2021",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-24T10:00:00.000Z",
+                "endDate": "2021-09-24T11:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "12:55",
+                "startDate": "2021-09-24T09:55:00.000Z",
+                "endDate": "2021-09-24T11:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-24T10:00:00.000Z",
+        "endDate": "2021-09-24T11:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-25-f1-p3",
+        "category": "f1",
+        "city": "Сочи",
+        "name": "Третья сессия свободных заездов",
+        "date": "25.09.2021",
+        "startTime": "12:00",
+        "endTime": "13:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1405454_translation_Gran_pri_Rossii_Svobodnaja_praktika_3",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-25T09:00:00.000Z",
+                "endDate": "2021-09-25T10:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/matchtv",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "11:55",
+                "startDate": "2021-09-25T08:55:00.000Z",
+                "endDate": "2021-09-25T10:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-25T09:00:00.000Z",
+        "endDate": "2021-09-25T10:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-25-f1-q",
+        "category": "f1",
+        "city": "Сочи",
+        "name": "Квалификация",
+        "date": "25.09.2021",
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1404920_translation_Gran_pri_Rossii_Kvalifikacija",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-25T12:00:00.000Z",
+                "endDate": "2021-09-25T13:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/matchtv",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "14:55",
+                "startDate": "2021-09-25T11:55:00.000Z",
+                "endDate": "2021-09-25T13:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-25T12:00:00.000Z",
+        "endDate": "2021-09-25T13:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-25-f2-race1",
+        "category": "f2",
+        "city": "Сочи",
+        "name": "Гонка 1",
+        "date": "25.09.2021",
+        "startTime": "10:30",
+        "endTime": "11:30",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1405451_translation_Formula_2_Gran_pri_Rossii_Gonka_1",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-25T07:30:00.000Z",
+                "endDate": "2021-09-25T08:30:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "10:25",
+                "startDate": "2021-09-25T07:25:00.000Z",
+                "endDate": "2021-09-25T08:30:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-25T07:30:00.000Z",
+        "endDate": "2021-09-25T08:30:00.000Z"
+    },
+    {
+        "uid": "2021-09-25-f2-race2",
+        "category": "f2",
+        "city": "Сочи",
+        "name": "Гонка 2",
+        "date": "25.09.2021",
+        "startTime": "16:40",
+        "endTime": "17:40",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1405451_translation_Formula_2_Gran_pri_Rossii_Gonka_1",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-25T13:40:00.000Z",
+                "endDate": "2021-09-25T14:40:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "16:40",
+                "startDate": "2021-09-25T13:40:00.000Z",
+                "endDate": "2021-09-25T14:40:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-25T13:40:00.000Z",
+        "endDate": "2021-09-25T14:40:00.000Z"
+    },
+    {
+        "uid": "2021-09-25-f3-race1",
+        "category": "f3",
+        "city": "Сочи",
+        "name": "Гонка 1",
+        "date": "25.09.2021",
+        "startTime": "8:30",
+        "endTime": "9:30",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-25T05:30:00.000Z",
+                "endDate": "2021-09-25T06:30:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "8:30",
+                "startDate": "2021-09-25T05:30:00.000Z",
+                "endDate": "2021-09-25T06:30:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-25T05:30:00.000Z",
+        "endDate": "2021-09-25T06:30:00.000Z"
+    },
+    {
+        "uid": "2021-09-25-f3-race2",
+        "category": "f3",
+        "city": "Сочи",
+        "name": "Гонка 2",
+        "date": "25.09.2021",
+        "startTime": "13:40",
+        "endTime": "14:40",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-25T10:40:00.000Z",
+                "endDate": "2021-09-25T11:40:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "13:35",
+                "startDate": "2021-09-25T10:35:00.000Z",
+                "endDate": "2021-09-25T11:40:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-25T10:40:00.000Z",
+        "endDate": "2021-09-25T11:40:00.000Z"
+    },
+    {
+        "uid": "2021-09-26-f1-race",
+        "category": "f1",
+        "city": "Сочи",
+        "name": "Гран-при",
+        "date": "26.09.2021",
+        "startTime": "15:00",
+        "endTime": "17:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1404999_translation_Gran_pri_Rossii",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-26T12:00:00.000Z",
+                "endDate": "2021-09-26T14:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/matchtv",
+                "commentator": "Алексей Попов, Наталья Фабричнова",
+                "channel": "Матч! ТВ",
+                "type": "online",
+                "startTime": "14:45",
+                "startDate": "2021-09-26T11:45:00.000Z",
+                "endDate": "2021-09-26T14:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-26T12:00:00.000Z",
+        "endDate": "2021-09-26T14:00:00.000Z"
+    },
+    {
+        "uid": "2021-09-26-f2-race3",
+        "category": "f2",
+        "city": "Сочи",
+        "name": "Гонка 3",
+        "date": "26.09.2021",
+        "startTime": "11:15",
+        "endTime": "12:15",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1405473_translation_Formula_2_Gran_pri_Rossii_Gonka_3",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-26T08:15:00.000Z",
+                "endDate": "2021-09-26T09:15:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "11:15",
+                "startDate": "2021-09-26T08:15:00.000Z",
+                "endDate": "2021-09-26T09:15:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-26T08:15:00.000Z",
+        "endDate": "2021-09-26T09:15:00.000Z"
+    },
+    {
+        "uid": "2021-09-26-f3-race3",
+        "category": "f3",
+        "city": "Сочи",
+        "name": "Гонка 3",
+        "date": "26.09.2021",
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "broadcasts": [
+            {
+                "link": "https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1",
+                "commentator": "...",
+                "channel": "Sportbox",
+                "type": "online",
+                "startDate": "2021-09-26T07:00:00.000Z",
+                "endDate": "2021-09-26T08:00:00.000Z"
+            },
+            {
+                "link": "https://matchtv.ru/channel/strana",
+                "commentator": "...",
+                "channel": "Матч! Страна",
+                "type": "online",
+                "startTime": "9:50",
+                "startDate": "2021-09-26T06:50:00.000Z",
+                "endDate": "2021-09-26T08:00:00.000Z"
+            }
+        ],
+        "startDate": "2021-09-26T07:00:00.000Z",
+        "endDate": "2021-09-26T08:00:00.000Z"
+    },
+    {
+        "uid": "2021-10-08-f1-p1",
+        "category": "f1",
+        "city": "Турция",
+        "name": "Первая сессия свободных заездов",
+        "date": "08.10.2021",
+        "startTime": "12:30",
+        "endTime": "13:30",
+        "broadcasts": [],
+        "startDate": "2021-10-08T09:30:00.000Z",
+        "endDate": "2021-10-08T10:30:00.000Z"
+    },
+    {
+        "uid": "2021-10-08-f1-p2",
+        "category": "f1",
+        "city": "Турция",
+        "name": "Вторая сессия свободных заездов",
+        "date": "08.10.2021",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "broadcasts": [],
+        "startDate": "2021-10-08T13:00:00.000Z",
+        "endDate": "2021-10-08T14:00:00.000Z"
+    },
+    {
+        "uid": "2021-10-09-f1-p3",
+        "category": "f1",
+        "city": "Турция",
+        "name": "Третья сессия свободных заездов",
+        "date": "09.10.2021",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "broadcasts": [],
+        "startDate": "2021-10-09T10:00:00.000Z",
+        "endDate": "2021-10-09T11:00:00.000Z"
+    },
+    {
+        "uid": "2021-10-09-f1-q",
+        "category": "f1",
+        "city": "Турция",
+        "name": "Квалификация",
+        "date": "09.10.2021",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "broadcasts": [],
+        "startDate": "2021-10-09T13:00:00.000Z",
+        "endDate": "2021-10-09T14:00:00.000Z"
+    },
+    {
+        "uid": "2021-10-10-f1-race",
+        "category": "f1",
+        "city": "Турция",
+        "name": "Гран-при",
+        "date": "10.10.2021",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "broadcasts": [],
+        "startDate": "2021-10-10T13:00:00.000Z",
+        "endDate": "2021-10-10T15:00:00.000Z"
+    },
+    {
+        "uid": "2021-10-22-f1-p1",
+        "category": "f1",
+        "city": "Америка",
+        "name": "Первая сессия свободных заездов",
+        "date": "22.10.2021",
+        "startTime": "19:30",
+        "endTime": "20:30",
+        "broadcasts": [],
+        "startDate": "2021-10-22T16:30:00.000Z",
+        "endDate": "2021-10-22T17:30:00.000Z"
+    },
+    {
+        "uid": "2021-10-22-f1-p2",
+        "category": "f1",
+        "city": "Америка",
+        "name": "Вторая сессия свободных заездов",
+        "date": "22.10.2021",
+        "startTime": "23:00",
+        "endTime": "23:59",
+        "broadcasts": [],
+        "startDate": "2021-10-22T20:00:00.000Z",
+        "endDate": "2021-10-22T20:59:00.000Z"
+    },
+    {
+        "uid": "2021-10-23-f1-p3",
+        "category": "f1",
+        "city": "Америка",
+        "name": "Третья сессия свободных заездов",
+        "date": "23.10.2021",
+        "startTime": "21:00",
+        "endTime": "22:00",
+        "broadcasts": [],
+        "startDate": "2021-10-23T18:00:00.000Z",
+        "endDate": "2021-10-23T19:00:00.000Z"
+    },
+    {
+        "uid": "2021-10-23-f1-q",
+        "category": "f1",
+        "city": "Америка",
+        "name": "Квалификация",
+        "date": "24.10.2021",
+        "startTime": "00:00",
+        "endTime": "01:00",
+        "broadcasts": [],
+        "startDate": "2021-10-23T21:00:00.000Z",
+        "endDate": "2021-10-23T22:00:00.000Z"
+    },
+    {
+        "uid": "2021-10-24-f1-race",
+        "category": "f1",
+        "city": "Америка",
+        "name": "Гран-при",
+        "date": "24.10.2021",
+        "startTime": "22:00",
+        "endTime": "23:59",
+        "broadcasts": [],
+        "startDate": "2021-10-24T19:00:00.000Z",
+        "endDate": "2021-10-24T20:59:00.000Z"
+    },
+    {
+        "uid": "2021-11-05-f1-p1",
+        "category": "f1",
+        "city": "Мехико",
+        "name": "Первая сессия свободных заездов",
+        "date": "05.11.2021",
+        "startTime": "20:30",
+        "endTime": "21:30",
+        "broadcasts": [],
+        "startDate": "2021-11-05T17:30:00.000Z",
+        "endDate": "2021-11-05T18:30:00.000Z"
+    },
+    {
+        "uid": "2021-11-05-f1-p2",
+        "category": "f1",
+        "city": "Мехико",
+        "name": "Вторая сессия свободных заездов",
+        "date": "06.11.2021",
+        "startTime": "00:00",
+        "endTime": "01:00",
+        "broadcasts": [],
+        "startDate": "2021-11-05T21:00:00.000Z",
+        "endDate": "2021-11-05T22:00:00.000Z"
+    },
+    {
+        "uid": "2021-11-06-f1-p3",
+        "category": "f1",
+        "city": "Мехико",
+        "name": "Третья сессия свободных заездов",
+        "date": "06.11.2021",
+        "startTime": "20:00",
+        "endTime": "21:00",
+        "broadcasts": [],
+        "startDate": "2021-11-06T17:00:00.000Z",
+        "endDate": "2021-11-06T18:00:00.000Z"
+    },
+    {
+        "uid": "2021-11-06-f1-q",
+        "category": "f1",
+        "city": "Мехико",
+        "name": "Квалификация",
+        "date": "06.11.2021",
+        "startTime": "23:00",
+        "endTime": "23:59",
+        "broadcasts": [],
+        "startDate": "2021-11-06T20:00:00.000Z",
+        "endDate": "2021-11-06T20:59:00.000Z"
+    },
+    {
+        "uid": "2021-11-07-f1-race",
+        "category": "f1",
+        "city": "Мехико",
+        "name": "Гран-при",
+        "date": "07.11.2021",
+        "startTime": "22:00",
+        "endTime": "23:59",
+        "broadcasts": [],
+        "startDate": "2021-11-07T19:00:00.000Z",
+        "endDate": "2021-11-07T20:59:00.000Z"
+    },
+    {
+        "uid": "2021-11-12-f1-p1",
+        "category": "f1",
+        "city": "Бразилия",
+        "name": "Первая сессия свободных заездов",
+        "date": "12.11.2021",
+        "startTime": "17:30",
+        "endTime": "18:30",
+        "broadcasts": [],
+        "startDate": "2021-11-12T14:30:00.000Z",
+        "endDate": "2021-11-12T15:30:00.000Z"
+    },
+    {
+        "uid": "2021-11-12-f1-p2",
+        "category": "f1",
+        "city": "Бразилия",
+        "name": "Вторая сессия свободных заездов",
+        "date": "12.11.2021",
+        "startTime": "21:00",
+        "endTime": "22:00",
+        "broadcasts": [],
+        "startDate": "2021-11-12T18:00:00.000Z",
+        "endDate": "2021-11-12T19:00:00.000Z"
+    },
+    {
+        "uid": "2021-11-13-f1-p3",
+        "category": "f1",
+        "city": "Бразилия",
+        "name": "Третья сессия свободных заездов",
+        "date": "13.11.2021",
+        "startTime": "18:00",
+        "endTime": "19:00",
+        "broadcasts": [],
+        "startDate": "2021-11-13T15:00:00.000Z",
+        "endDate": "2021-11-13T16:00:00.000Z"
+    },
+    {
+        "uid": "2021-11-13-f1-q",
+        "category": "f1",
+        "city": "Бразилия",
+        "name": "Квалификация",
+        "date": "13.11.2021",
+        "startTime": "21:00",
+        "endTime": "22:00",
+        "broadcasts": [],
+        "startDate": "2021-11-13T18:00:00.000Z",
+        "endDate": "2021-11-13T19:00:00.000Z"
+    },
+    {
+        "uid": "2021-11-14-f1-race",
+        "category": "f1",
+        "city": "Бразилия",
+        "name": "Гран-при",
+        "date": "14.11.2021",
+        "startTime": "20:00",
+        "endTime": "22:00",
+        "broadcasts": [],
+        "startDate": "2021-11-14T17:00:00.000Z",
+        "endDate": "2021-11-14T19:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-03-f1-p1",
+        "category": "f1",
+        "city": "Джидда",
+        "name": "Первая сессия свободных заездов",
+        "date": "03.12.2021",
+        "startTime": "15:30",
+        "endTime": "18:30",
+        "broadcasts": [],
+        "startDate": "2021-12-03T12:30:00.000Z",
+        "endDate": "2021-12-03T15:30:00.000Z"
+    },
+    {
+        "uid": "2021-12-03-f1-p2",
+        "category": "f1",
+        "city": "Джидда",
+        "name": "Вторая сессия свободных заездов",
+        "date": "03.12.2021",
+        "startTime": "19:00",
+        "endTime": "20:00",
+        "broadcasts": [],
+        "startDate": "2021-12-03T16:00:00.000Z",
+        "endDate": "2021-12-03T17:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-04-f1-p3",
+        "category": "f1",
+        "city": "Джидда",
+        "name": "Третья сессия свободных заездов",
+        "date": "04.12.2021",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "broadcasts": [],
+        "startDate": "2021-12-04T13:00:00.000Z",
+        "endDate": "2021-12-04T14:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-04-f1-q",
+        "category": "f1",
+        "city": "Джидда",
+        "name": "Квалификация",
+        "date": "04.12.2021",
+        "startTime": "19:00",
+        "endTime": "20:00",
+        "broadcasts": [],
+        "startDate": "2021-12-04T16:00:00.000Z",
+        "endDate": "2021-12-04T17:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-05-f1-race",
+        "category": "f1",
+        "city": "Джидда",
+        "name": "Гран-при",
+        "date": "05.12.2021",
+        "startTime": "19:00",
+        "endTime": "21:00",
+        "broadcasts": [],
+        "startDate": "2021-12-05T16:00:00.000Z",
+        "endDate": "2021-12-05T18:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-10-f1-p1",
+        "category": "f1",
+        "city": "Абу-Даби",
+        "name": "Первая сессия свободных заездов",
+        "date": "10.12.2021",
+        "startTime": "12:30",
+        "endTime": "13:30",
+        "broadcasts": [],
+        "startDate": "2021-12-10T09:30:00.000Z",
+        "endDate": "2021-12-10T10:30:00.000Z"
+    },
+    {
+        "uid": "2021-12-10-f1-p2",
+        "category": "f1",
+        "city": "Абу-Даби",
+        "name": "Вторая сессия свободных заездов",
+        "date": "10.12.2021",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "broadcasts": [],
+        "startDate": "2021-12-10T13:00:00.000Z",
+        "endDate": "2021-12-10T14:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-11-f1-p3",
+        "category": "f1",
+        "city": "Абу-Даби",
+        "name": "Третья сессия свободных заездов",
+        "date": "11.12.2021",
+        "startTime": "13:00",
+        "endTime": "14:00",
+        "broadcasts": [],
+        "startDate": "2021-12-11T10:00:00.000Z",
+        "endDate": "2021-12-11T11:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-11-f1-q",
+        "category": "f1",
+        "city": "Абу-Даби",
+        "name": "Квалификация",
+        "date": "11.12.2021",
+        "startTime": "16:00",
+        "endTime": "17:00",
+        "broadcasts": [],
+        "startDate": "2021-12-11T13:00:00.000Z",
+        "endDate": "2021-12-11T14:00:00.000Z"
+    },
+    {
+        "uid": "2021-12-12-f1-race",
+        "category": "f1",
+        "city": "Абу-Даби",
+        "name": "Гран-при",
+        "date": "12.12.2021",
+        "startTime": "16:00",
+        "endTime": "18:00",
+        "broadcasts": [],
+        "startDate": "2021-12-12T13:00:00.000Z",
+        "endDate": "2021-12-12T15:00:00.000Z"
+    }
+]
