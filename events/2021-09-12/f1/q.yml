@@ -7,11 +7,12 @@ endTime: 20:00
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398687_translation_Gran_pri_Italii_Kvalifikacija
     commentator: Алексей Попов, Наталья Фабричнова
-    channel: Sportbox
+    channel: sportbox
     type: online
     startTime: 18:55
   - link: https://matchtv.ru/channel/arena
     commentator: Алексей Попов, Наталья Фабричнова
-    channel: Матч! Арена
+    channel: matchtv
+    channelName: Матч! Арена
     type: online
     startTime: 18:55

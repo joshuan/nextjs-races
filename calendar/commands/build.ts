@@ -7,6 +7,9 @@ import { renderICal } from '../renderers/ical';
 import { renderJson } from '../renderers/json';
 import { checkDistFolder } from '../lib/checkDistFolder';
 import { writeFile } from '../lib/writeFile';
+import { getBroadcastEvents } from '../lib/getBroadcastEvents';
+import { getBroadcastChannels } from '../lib/getBroadcastChannels';
+import { filterBroadcastByChannel } from '../lib/filterBroadcastByChannel';
 
 import * as paths from '../paths';
 
@@ -22,7 +25,18 @@ import * as paths from '../paths';
         await writeFile(paths.json, renderJson(processedEvents));
 
         await writeFile(paths.ical, renderICal(makeICalEvents(processedEvents)));
-        await writeFile(paths.broadcastIcal, renderICal(makeICalBroadcasts(processedEvents)));
+
+        const broadcastEvents = getBroadcastEvents(processedEvents);
+        const broadcastChannels = getBroadcastChannels(broadcastEvents);
+
+        await writeFile(paths.getBroadcastPath(), renderICal(makeICalBroadcasts(processedEvents)));
+
+        for (let index in broadcastChannels) {
+            const channel = broadcastChannels[index];
+            const channelBroadcasts = filterBroadcastByChannel(broadcastEvents, channel);
+
+            await writeFile(paths.getBroadcastPath(channel), renderICal(makeICalBroadcasts(channelBroadcasts)));
+        }
 
         console.log('Done');
     } catch (error) {

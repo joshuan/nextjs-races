@@ -7,10 +7,11 @@ endTime: 14:40
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_3/spbvideo_NI1405757_translation_Formula_3_Gran_pri_Rossii_Gonka_2
     commentator: ...
-    channel: Sportbox
+    channel: sportbox
     type: online
   - link: https://matchtv.ru/channel/strana
     commentator: ...
-    channel: Матч! Страна
+    channel: matchtv
+    channelName: Матч! Страна
     type: online
     startTime: 13:35

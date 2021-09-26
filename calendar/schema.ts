@@ -21,7 +21,11 @@ const schema = {
             props: {
                 link: 'string',
                 commentator: { type: 'string', optional: true },
-                channel: 'string',
+                channel: {
+                    type: 'enum',
+                    values: ['sportbox', 'matchtv'],
+                },
+                channelName: { type: 'string', optional: true },
                 type: {
                     type: 'enum',
                     values: ['online', 'offline', 'record'],

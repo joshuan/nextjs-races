@@ -7,10 +7,11 @@ endTime: 17:00
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1404999_translation_Gran_pri_Rossii
     commentator: Алексей Попов, Наталья Фабричнова
-    channel: Sportbox
+    channel: sportbox
     type: online
   - link: https://matchtv.ru/channel/matchtv
     commentator: Алексей Попов, Наталья Фабричнова
-    channel: Матч! ТВ
+    channel: matchtv
+    channelName: Матч! ТВ
     type: online
     startTime: 14:45

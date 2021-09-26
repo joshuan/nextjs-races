@@ -7,6 +7,7 @@ endTime: 12:00
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1398924_translation_FORMULA_2_Gran_pri_Italii_Gonka_3
     commentator: Алексей Попов, Наталья Фабричнова
-    channel: Матч! ТВ
+    channel: matchtv
+    channelName: Матч! ТВ
     type: online
     startTime: 11:20

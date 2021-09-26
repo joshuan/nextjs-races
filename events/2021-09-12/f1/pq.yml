@@ -7,11 +7,12 @@ endTime: 16:30
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398676_translation_Gran_pri_Italii_Svobodnaja_praktika_1
     commentator: Владимир Башмаков
-    channel: Sportbox
+    channel: sportbox
     type: online
     startTime: 15:25
   - link: https://matchtv.ru/channel/arena
     commentator: Владимир Башмаков
-    channel: Матч! Арена
+    channel: matchtv
+    channelName: Матч! Арена
     type: online
     startTime: 15:25

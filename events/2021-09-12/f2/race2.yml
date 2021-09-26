@@ -6,12 +6,13 @@ startTime: 15:45
 endTime: 17:00
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1399239_translation_Formula_2_Gran_pri_Italii_Gonka_2
-    channel: Sportbox
+    channel: sportbox
     type: online
   - link: https://matchtv.ru/channel/arena
     commentator: Алексей Попов, Наталья Фабричнова
     date: 12.09.2021
     startTime: 01:00
     endTime: 02:00
-    channel: Матч! Арена
+    channel: matchtv
+    channelName: Матч! Арена
     type: record
