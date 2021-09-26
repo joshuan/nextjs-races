@@ -6,13 +6,30 @@ import { IRawFile } from '../types';
 
 const fsReadDir = pify(fs.readdir);
 const fsReadFile = pify(fs.readFile);
+const fsStats = pify(fs.lstat);
 
-function readDir(dir: string): Promise<string[]> {
-    return fsReadDir(dir);
+async function readDir(root: string, dir: string = ''): Promise<string[]> {
+    const filesAndDirs = await fsReadDir(path.join(root, dir));
+    const list = [];
+
+    for (let index in filesAndDirs) {
+        const itemPath = path.join(dir, filesAndDirs[index]);
+        const stats = await fsStats(path.join(root, itemPath));
+
+        if (stats.isDirectory()) {
+            list.push(...await readDir(root, itemPath));
+        }
+
+        if (stats.isFile()) {
+            list.push(itemPath);
+        }
+    }
+
+    return list;
 }
 
-function readFile(file: string): Promise<string> {
-    return fsReadFile(file, { encoding: 'utf-8' });
+function readFile(root: string, file: string): Promise<string> {
+    return fsReadFile(path.join(root, file), { encoding: 'utf-8' });
 }
 
 function getFilename(file: string): string {
@@ -25,12 +42,11 @@ function getFilename(file: string): string {
  */
 export async function getRawEvents(dir: string): Promise<IRawFile[]> {
     const files = await readDir(dir);
-    const data = await Promise.all(files.map(async (file: string) => {
+
+    return await Promise.all(files.map(async (file: string) => {
         const filename = getFilename(file);
-        const content = await readFile(path.join(dir, file));
+        const content = await readFile(dir, file);
 
         return { filename, content };
     }));
-
-    return data;
 }
