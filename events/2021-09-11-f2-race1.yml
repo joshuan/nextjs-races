@@ -1,0 +1,15 @@
+category: f2
+city: Монца
+name: '1-я гонка'
+date: 11.09.2021
+startTime: 09:45
+endTime: 11:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1398923_translation_FORMULA_2_Gran_pri_Italii_Gonka_1
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/arena
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Матч! Арена
+    type: online

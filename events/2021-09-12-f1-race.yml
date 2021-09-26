@@ -1,0 +1,17 @@
+category: f1
+city: Монца
+name: 'Гран-При Италии'
+date: 12.09.2021
+startTime: 16:00
+endTime: 18:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398702_translation_Gran_pri_Italii
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Sportbox
+    type: online
+    startTime: 15:40
+  - link: https://matchtv.ru/channel/matchtv
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Матч! ТВ
+    type: online
+    startTime: 15:40

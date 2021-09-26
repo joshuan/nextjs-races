@@ -1,0 +1,16 @@
+category: f3
+city: Сочи
+name: Гонка 1
+date: 25.09.2021
+startTime: 8:30
+endTime: 9:30
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1
+    commentator: ...
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/strana
+    commentator: ...
+    channel: Матч! Страна
+    type: online
+    startTime: 8:30

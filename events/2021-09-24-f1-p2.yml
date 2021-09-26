@@ -1,0 +1,16 @@
+category: f1
+city: Сочи
+name: Вторая сессия свободных заездов
+date: 24.09.2021
+startTime: 15:00
+endTime: 16:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1405421_translation_Gran_pri_Rossii_Svobodnaja_praktika_2
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/matchtv
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Матч! ТВ
+    type: online
+    startTime: 14:55

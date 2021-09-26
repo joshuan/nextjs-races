@@ -1,0 +1,15 @@
+category: f1
+city: Монца
+name: 'Вторая сессия свободных заездов'
+date: 11.09.2021
+startTime: 13:00
+endTime: 14:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398693_translation_Gran_pri_Italii_Svobodnaja_praktika_2
+    commentator: Владимир Башмаков
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/arena
+    commentator: Владимир Башмаков
+    channel: Матч! Арена
+    type: online

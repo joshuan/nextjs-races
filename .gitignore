@@ -15,6 +15,11 @@
 # production
 /build
 
+# generated data
+/public/calendar.ics
+/public/calendar-*.ics
+/public/calendar.json
+
 # misc
 .DS_Store
 

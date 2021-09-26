@@ -1,0 +1,16 @@
+category: f3
+city: Сочи
+name: Квалификация
+date: 24.09.2021
+startTime: 13:00
+endTime: 14:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1
+    commentator: ...
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/strana
+    commentator: ...
+    channel: Матч! Страна
+    type: online
+    startTime: 12:55

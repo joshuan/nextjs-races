@@ -4,7 +4,7 @@ const { useRouter } = require('next/router');
 
 require('moment/locale/ru');
 
-const rawData = require('../data/calendar.json');
+const rawData = require('../public/calendar.json');
 
 if (typeof window !== 'undefined') {
     window.moment = moment

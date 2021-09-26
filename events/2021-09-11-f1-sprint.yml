@@ -1,0 +1,17 @@
+category: f1
+city: Монца
+name: 'Спринт-квалификация'
+date: 11.09.2021
+startTime: 17:30
+endTime: 18:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398696_translation_Gran_pri_Italii_Sprint_kvalifikacija
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Sportbox
+    type: online
+    startTime: 17:25
+  - link: https://matchtv.ru/channel/matchtv
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Матч! ТВ
+    type: online
+    startTime: 17:25
