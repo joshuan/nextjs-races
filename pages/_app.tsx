@@ -6,12 +6,10 @@ import './style.css';
 function App({ Component, pageProps }: AppProps) {
     return (
         <div className="container">
-            <main>
-                <h1 className="title">
-                    Formula calendar
-                </h1>
-                <Component {...pageProps} />
-            </main>
+            <h1 className="title">
+                Formula calendar
+            </h1>
+            <Component {...pageProps} />
         </div>
     );
 }

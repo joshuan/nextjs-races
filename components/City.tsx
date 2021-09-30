@@ -9,7 +9,7 @@ function getCategory(category: string): string {
     }[category] || 'Unknown category!';
 }
 
-export default function City({ name, events }: { name: string; events: any[] }) {
+export default function City({ name, events }: { name: string; events?: any[] }) {
     return (
         <>
             <tr>
@@ -21,7 +21,7 @@ export default function City({ name, events }: { name: string; events: any[] }) 
                     </h2>
                 </td>
             </tr>
-            {events.map((item) => (
+            {events && events.map((item) => (
                 <tr key={item.uid}>
                     <td className="race-category">{getCategory(item.category)}</td>
                     <td className="race-name">{item.name}</td>

@@ -2,9 +2,9 @@ import { ICalLocation } from 'ical-generator';
 import { IRawEventWithDate } from '../../@types/types';
 
 export function renderGeo({ city }: IRawEventWithDate): ICalLocation | null {
-    if (city === 'Монца') {
+    if (city === 'monca') {
         return {
-            title: 'Монца, Италия',
+            title: 'monca, Италия',
             geo: {
                 lat: 45.6132,
                 lon: 9.2893,

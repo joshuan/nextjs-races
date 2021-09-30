@@ -11,11 +11,11 @@ export type TChannel = 'sportbox' | 'matchtv';
 export enum Cities {
     monca = 'Монца',
     sochi = 'Сочи',
-    stambul = 'Турция',
-    texas = 'Америка',
+    turkey = 'Турция',
+    america = 'Америка',
     mexico = 'Мехико',
     brazil = 'Бразилия',
-    djidda = 'Джидда',
+    saudi = 'Джидда',
     abudabi = 'Абу-Даби',
 }
 
