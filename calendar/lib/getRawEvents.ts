@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import pify from 'pify';
 
-import { IRawFile } from '../types';
+import { IRawFile } from '../../@types/types';
 
 const fsReadDir = pify(fs.readdir);
 const fsReadFile = pify(fs.readFile);
@@ -33,7 +33,7 @@ function readFile(root: string, file: string): Promise<string> {
 }
 
 function getFilename(file: string): string {
-    return path.basename(file, '.yml');
+    return path.join(path.dirname(file), path.basename(file, '.yml'));
 }
 
 /**

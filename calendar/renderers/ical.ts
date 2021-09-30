@@ -1,5 +1,5 @@
 import ical from 'ical-generator';
-import { IEvent } from '../types';
+import { IEvent } from '../../@types/types';
 
 export function renderICal(events: IEvent[]): string {
     const cal = ical({

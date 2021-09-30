@@ -1,5 +1,5 @@
 import yaml from 'js-yaml';
-import { IRawFile, IRawEventData } from "../types";
+import { IRawFile, IRawEventData } from "../../@types/types";
 import { getValidateErrors, validateRawEvent } from "./validateRawEvent";
 
 export async function parseRawEvent({ filename, content }: IRawFile): Promise<IRawEventData> {

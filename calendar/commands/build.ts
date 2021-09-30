@@ -5,7 +5,6 @@ import { makeICalEvents } from '../lib/makeICalEvent';
 import { makeICalBroadcasts } from '../lib/makeICalBroadcasts';
 import { renderICal } from '../renderers/ical';
 import { renderJson } from '../renderers/json';
-import { checkDistFolder } from '../lib/checkDistFolder';
 import { writeFile } from '../lib/writeFile';
 import { getBroadcastEvents } from '../lib/getBroadcastEvents';
 import { getBroadcastChannels } from '../lib/getBroadcastChannels';
@@ -15,8 +14,6 @@ import * as paths from '../paths';
 
 (async function() {
     try {
-        checkDistFolder(paths.dist);
-
         const rawEvents = await getRawEvents(paths.source);
         const parsedEvents = await parseRawEvents(rawEvents);
 

@@ -1,5 +1,5 @@
 import { ICalEventData, ICalLocation } from 'ical-generator';
-import { IBroadcastWithDate, IRawEventProcessed, IRawEventWithDate } from '../types';
+import { IBroadcastWithDate, IRawEventProcessed, IRawEventWithDate } from '../../@types/types';
 import { renderTimes } from './renderTimes';
 import { renderGeo } from './renderGeo';
 import i18n from '../i18n/ru';

@@ -1,4 +1,4 @@
-import { IRawEventWithDate } from '../types';
+import { IRawEventWithDate } from '../../@types/types';
 
 export function filterBroadcastByChannel(list: IRawEventWithDate[], channel: string) {
     return list.filter((item) => {

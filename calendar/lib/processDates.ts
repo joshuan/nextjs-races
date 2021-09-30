@@ -1,4 +1,4 @@
-import { IRawEventData, IRawEventWithDate } from "../types";
+import { IRawEventData, IRawEventWithDate } from "../../@types/types";
 
 function createDate(date: string, time: string): Date {
     const [day, month, year] = date.split('.');
@@ -19,7 +19,7 @@ export function processDates(event: IRawEventData): IRawEventWithDate {
         startDate: createDate(event.date, event.startTime),
         endDate: createDate(event.date, event.endTime),
         broadcasts: event.broadcasts.map((broadcast) => {
-            return { 
+            return {
                 ...broadcast,
                 startDate: createDate(broadcast.date || event.date, broadcast.startTime || event.startTime),
                 endDate: createDate(broadcast.date || event.date, broadcast.endTime || event.endTime),

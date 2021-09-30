@@ -19,6 +19,7 @@
 /public/calendar.ics
 /public/calendar-*.ics
 /public/calendar.json
+/@types/schema.json
 
 # misc
 .DS_Store
