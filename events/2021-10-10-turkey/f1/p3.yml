@@ -1,0 +1,16 @@
+series: f1
+city: turkey
+name: Третья сессия свободных заездов
+date: 09.10.2021
+startTime: 12:00
+endTime: 13:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1413074_translation_Gran_pri_Turcii_Svobodnaja_praktika_3
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/arena
+    commentator: Алексей Попов, Наталья Фабричнова
+    startTime: 11:55
+    channel: Матч! Арена
+    type: online

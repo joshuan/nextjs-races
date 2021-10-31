@@ -1,0 +1,16 @@
+series: f1
+city: america
+name: Гран-при
+date: 24.10.2021
+startTime: 22:00
+endTime: 23:59
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1419416_translation_Gran_pri_SShA
+    commentator: Алексей Попов, Наталья Фабричнова
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/matchtv
+    commentator: Алексей Попов, Наталья Фабричнова
+    startTime: 21:45
+    channel: Матч! ТВ
+    type: online

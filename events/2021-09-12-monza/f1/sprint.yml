@@ -1,0 +1,18 @@
+series: f1
+city: monza
+name: 'Спринт-квалификация'
+date: 11.09.2021
+startTime: 17:30
+endTime: 18:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398696_translation_Gran_pri_Italii_Sprint_kvalifikacija
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: sportbox
+    type: online
+    startTime: 17:25
+  - link: https://matchtv.ru/channel/matchtv
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: matchtv
+    channelName: Матч! ТВ
+    type: online
+    startTime: 17:25

@@ -1,0 +1,18 @@
+series: f2
+city: monza
+name: '2-я гонка'
+date: 11.09.2021
+startTime: 15:45
+endTime: 17:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1399239_translation_Formula_2_Gran_pri_Italii_Gonka_2
+    channel: sportbox
+    type: online
+  - link: https://matchtv.ru/channel/arena
+    audio: Алексей Попов, Наталья Фабричнова
+    date: 12.09.2021
+    startTime: 01:00
+    endTime: 02:00
+    channel: matchtv
+    channelName: Матч! Арена
+    type: record

@@ -1,0 +1,16 @@
+series: f1
+city: america
+name: Первая сессия свободных заездов
+date: 22.10.2021
+startTime: 19:30
+endTime: 20:30
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1419631_translation_Gran_pri_SShA_Svobodnaja_praktika_1
+    commentator: Владимир Башмаков
+    channel: Sportbox
+    type: online
+  - link: https://matchtv.ru/channel/igra
+    commentator: Владимир Башмаков
+    startTime: 19:25
+    channel: Матч! Игра
+    type: online

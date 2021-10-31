@@ -1,0 +1,11 @@
+series: f1
+city: mexico
+name: Гран-при
+date: 07.11.2021
+startTime: 22:00
+endTime: 23:59
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1427041_translation_Gran_pri_Meksiki
+    channel: Sportbox
+    type: online
+    startTime: 21:45

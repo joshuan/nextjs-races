@@ -1,0 +1,11 @@
+series: f1
+city: mexico
+name: Третья сессия свободных заездов
+date: 06.11.2021
+startTime: 20:00
+endTime: 21:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1427622_translation_Gran_pri_Meksiki_Svobodnaja_praktika_3
+    channel: Sportbox
+    type: online
+    startTime: 19:55

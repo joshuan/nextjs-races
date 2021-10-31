@@ -1,0 +1,17 @@
+series: f3
+city: sochi
+name: Гонка 3
+date: 26.09.2021
+startTime: 10:00
+endTime: 11:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_3/spbvideo_NI1405761_translation_Formula_3_Gran_pri_Rossii_Gonka_3
+    audio: ...
+    channel: sportbox
+    type: online
+  - link: https://matchtv.ru/channel/strana
+    audio: ...
+    channel: matchtv
+    channelName: Матч! Страна
+    type: online
+    startTime: 9:50

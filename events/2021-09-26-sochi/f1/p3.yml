@@ -1,0 +1,17 @@
+series: f1
+city: sochi
+name: Третья сессия свободных заездов
+date: 25.09.2021
+startTime: 12:00
+endTime: 13:00
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1405454_translation_Gran_pri_Rossii_Svobodnaja_praktika_3
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: sportbox
+    type: online
+  - link: https://matchtv.ru/channel/matchtv
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: matchtv
+    channelName: Матч! ТВ
+    type: online
+    startTime: 11:55

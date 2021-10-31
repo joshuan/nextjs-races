@@ -1,0 +1,17 @@
+series: f1
+city: sochi
+name: Первая сессия свободных заездов
+date: 24.09.2021
+startTime: 11:30
+endTime: 12:30
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1405416_translation_Gran_pri_Rossii_Svobodnaja_praktika_1
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: sportbox
+    type: online
+  - link: https://matchtv.ru/channel/matchtv
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: matchtv
+    channelName: Матч! ТВ
+    type: online
+    startTime: 11:25

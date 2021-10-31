@@ -1,0 +1,17 @@
+series: f2
+city: sochi
+name: Гонка 2
+date: 25.09.2021
+startTime: 16:40
+endTime: 17:40
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1405451_translation_Formula_2_Gran_pri_Rossii_Gonka_1
+    audio: ...
+    channel: sportbox
+    type: online
+  - link: https://matchtv.ru/channel/strana
+    audio: ...
+    channel: matchtv
+    channelName: Матч! Страна
+    type: online
+    startTime: 16:40
