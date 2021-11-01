@@ -4,10 +4,10 @@ import { useRouter } from 'next/router';
 import data from "../../lib/data";
 import City from "../../components/City";
 import WeekLine from '../../components/WeekLine';
+import * as i18n from '../../@types/i18n';
 
 function getEvents(city: string) {
     const found = data.find((item) => {
-        // console.log('... find', { item: item.city }, { query: city });
         return item.city === city
     });
 
@@ -31,7 +31,7 @@ export default function CityPage() {
             <WeekLine events={events} />
             <table cellSpacing={0}>
                 <tbody>
-                    <City name={city} events={events} />
+                    <City name={i18n.Cities[city]} events={events} />
                 </tbody>
             </table>
         </>

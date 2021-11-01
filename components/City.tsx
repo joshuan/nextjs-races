@@ -1,5 +1,6 @@
 import React from 'react';
 import { RaceDate } from './RaceDate';
+import * as i18n from '../@types/i18n';
 
 export default function City({ name, events }: { name: string; events?: any[] }) {
     return (
@@ -15,8 +16,8 @@ export default function City({ name, events }: { name: string; events?: any[] })
             </tr>
             {events && events.map((item) => (
                 <tr key={item.uid}>
-                    <td className="race-category">{item.categoryName}</td>
-                    <td className="race-name">{item.name}</td>
+                    <td className="race-category">{item.seriesName}</td>
+                    <td className="race-name">{item.raceName}</td>
                     <td className="race-date">
                         <RaceDate {...item} />
                     </td>
@@ -25,8 +26,10 @@ export default function City({ name, events }: { name: string; events?: any[] })
                             <div key={`${item.uid}-${index}`}>
                                 <p className="broadcast">
                                     <a className="link" href={broadcast.link}>
-                                        {broadcast.channel}
+                                        {i18n.Channels[broadcast.channel]}
                                     </a>
+                                    {' '}
+                                    <span className="race-type">{i18n.BroadcastWorld[broadcast.type]}</span>
                                 </p>
                             </div>
                         ))}
@@ -37,6 +40,10 @@ export default function City({ name, events }: { name: string; events?: any[] })
               .city {
                 border-left: 0;
                 border-right: 0;
+              }
+              
+              .race-type {
+                color: #bbb;
               }
 
               .race-name {

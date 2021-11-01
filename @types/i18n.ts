@@ -1,22 +1,22 @@
-import {TBroadcastWorld, TChannels, TCities, TRaces, TSeries} from './fields';
+import { TBroadcastWorld, TChannels, TCities, TRaces, TSeries } from './fields';
 
 export const BroadcastWorld: Record<TBroadcastWorld, string> = {
-    online: 'В прямом эфире',
+    online: 'Прямой эфир',
     offline: 'Без трансляции',
-    record: 'В записи',
-}
+    record: 'Запись',
+};
 
 export const Series: Record<TSeries, string> = {
     f1: 'Формула 1',
     f2: 'Формула 2',
     f3: 'Формула 3',
-}
+};
 
 export const Channels: Record<TChannels, string> = {
     sportbox: 'Sportbox',
     matchtv: 'Матч ТВ',
     youtube: 'Youtube'
-}
+};
 
 export const Cities: Record<TCities, string> = {
     monza: 'Монца',
@@ -28,7 +28,7 @@ export const Cities: Record<TCities, string> = {
     saudi: 'Джидда',
     abudabi: 'Абу-Даби',
     qatar: 'Катар',
-}
+};
 
 export const Races: Record<TRaces, string> = {
     p: 'Практика',
@@ -41,4 +41,4 @@ export const Races: Record<TRaces, string> = {
     race1: 'Первая гонка',
     race2: 'Вторая гонка',
     race3: 'Третья гонка',
-}
+};

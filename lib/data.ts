@@ -1,13 +1,13 @@
 import moment from './moment';
 import rawData from '../public/calendar.json';
-import {IDateble, ISavedEventWithDate, IServerEvents, IServerGroups} from '../@types/types';
+import { IDateble, ISavedEventWithDate, IServerEvents, IServerGroups } from '../@types/types';
 
 function groupByCity(data: IServerEvents[]): IServerGroups[] {
     const results: IServerGroups[] = [];
 
     data.forEach((item) => {
         const itemCity = item.city || 'unknownCity';
-        const index = results.findIndex((result) => result.city === itemCity);
+        const index    = results.findIndex((result) => result.city === itemCity);
 
         if (index === -1) {
             results.push({ city: itemCity, list: [ item ] });

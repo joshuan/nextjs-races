@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import cities from '../lib/data';
 import moment from '../lib/moment';
+import * as i18n from '../@types/i18n';
 
 function CityDates({ list }: { list: IServerEvents[] }) {
     const times = list.map((item) => (new Date(item.startDate)).getTime());
@@ -22,7 +23,7 @@ export default function CitiesPage() {
                 <tr key={city}>
                     <td>
                         <Link href={`/city/${encodeURIComponent(city)}`}>
-                            {city}
+                            {i18n.Cities[city]}
                         </Link>
                     </td>
                     <td>
