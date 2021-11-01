@@ -1,11 +1,10 @@
 series: f1
 city: mexico
 race: grandprix
-date: 07.11.2021
-startTime: 22:00
-endTime: 23:59
+date: 2021-11-07T22:00:00+03:00
+duration: PT2H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1427041_translation_Gran_pri_Meksiki
     channel: sportbox
     type: online
-    startTime: 21:45
+    intro: PT15M

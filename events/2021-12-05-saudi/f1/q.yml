@@ -1,7 +1,6 @@
 series: f1
 city: saudi
 race: q
-date: 04.12.2021
-startTime: 19:00
-endTime: 20:00
+date: 2021-12-04T19:00:00+03:00
+duration: PT1H
 broadcasts: []

@@ -1,7 +1,6 @@
 series: f1
 city: brazil
 race: grandprix
-date: 14.11.2021
-startTime: 20:00
-endTime: 22:00
+date: 2021-11-14T20:00:00+03:00
+duration: PT2H
 broadcasts: []

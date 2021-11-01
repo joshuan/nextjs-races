@@ -1,11 +1,10 @@
 series: f1
 city: mexico
 race: p3
-date: 06.11.2021
-startTime: 20:00
-endTime: 21:00
+date: 2021-11-06T20:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1427622_translation_Gran_pri_Meksiki_Svobodnaja_praktika_3
     channel: sportbox
     type: online
-    startTime: 19:55
+    intro: PT5M

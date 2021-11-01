@@ -1,17 +1,17 @@
 series: f1
 city: turkey
 race: q
-date: 09.10.2021
-startTime: 15:00
-endTime: 16:00
+date: 2021-10-09T15:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1412531_translation_Gran_pri_Turcii_Kvalifikacija
     audio: Алексей Попов, Наталья Фабричнова
     channel: sportbox
     type: online
+    intro: PT5M
   - link: https://matchtv.ru/channel/matchtv
     audio: Алексей Попов, Наталья Фабричнова
-    startTime: 14:55
+    intro: PT5M
     channel: matchtv
     channelName: Матч! ТВ
     type: online

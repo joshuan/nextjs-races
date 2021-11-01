@@ -1,13 +1,12 @@
 series: f2
 city: monza
 race: race3
-date: 12.09.2021
-startTime: 11:30
-endTime: 12:00
+date: 2021-09-12T11:30:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1398924_translation_FORMULA_2_Gran_pri_Italii_Gonka_3
     audio: Алексей Попов, Наталья Фабричнова
     channel: matchtv
     channelName: Матч! ТВ
     type: online
-    startTime: 11:20
+    intro: PT10M

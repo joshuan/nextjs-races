@@ -1,9 +1,8 @@
 series: f3
 city: sochi
 race: q
-date: 24.09.2021
-startTime: 13:00
-endTime: 14:00
+date: 2021-09-24T13:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_3/spbvideo_NI1405749_translation_Formula_3_Gran_pri_Rossii_Kvalifikacija
     audio: ...
@@ -14,4 +13,4 @@ broadcasts:
     channel: matchtv
     channelName: Матч! Страна
     type: online
-    startTime: 12:55
+    intro: PT5M

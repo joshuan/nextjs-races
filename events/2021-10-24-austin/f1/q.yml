@@ -1,9 +1,8 @@
 series: f1
 city: america
 race: q
-date: 24.10.2021
-startTime: 00:00
-endTime: 01:00
+date: 2021-10-24T00:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1419320_translation_Gran_pri_SShA_Kvalifikacija
     audio: Алексей Попов, Наталья Фабричнова
@@ -11,8 +10,7 @@ broadcasts:
     type: online
   - link: https://matchtv.ru/channel/matchtv
     audio: Алексей Попов, Наталья Фабричнова
-    date: 23.10.2021
-    startTime: 23:55
+    intro: PT5M
     channel: matchtv
     channelName: Матч! ТВ
     type: online

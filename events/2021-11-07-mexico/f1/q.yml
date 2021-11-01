@@ -1,11 +1,10 @@
 series: f1
 city: mexico
 race: q
-date: 06.11.2021
-startTime: 23:00
-endTime: 23:59
+date: 2021-11-06T23:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1426969_translation_Gran_pri_Meksiki_Kvalifikacija
     channel: sportbox
     type: online
-    startTime: 22:55
+    intro: PT5M

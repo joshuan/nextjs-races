@@ -1,9 +1,8 @@
 series: f1
 city: turkey
 race: p2
-date: 08.10.2021
-startTime: 15:00
-endTime: 16:00
+date: 2021-10-08T15:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1413060_translation_Gran_pri_Turcii_Svobodnaja_praktika_2
     audio: Владимир Башмаков
@@ -11,7 +10,7 @@ broadcasts:
     type: online
   - link: https://matchtv.ru/channel/arena
     audio: Владимир Башмаков
-    startTime: 14:55
+    intro: PT5M
     channel: matchtv
     channelName: Матч! Арена
     type: online

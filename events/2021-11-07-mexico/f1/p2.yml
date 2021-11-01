@@ -1,12 +1,10 @@
 series: f1
 city: mexico
 race: p2
-date: 06.11.2021
-startTime: 00:00
-endTime: 01:00
+date: 2021-11-06T00:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1427614_translation_Gran_pri_Meksiki_Svobodnaja_praktika_2
     channel: sportbox
     type: online
-    date: 05.11.2021
-    startTime: 23:55
+    intro: PT5M

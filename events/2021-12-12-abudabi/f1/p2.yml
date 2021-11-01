@@ -1,7 +1,6 @@
 series: f1
 city: abudabi
 race: p2
-date: 10.12.2021
-startTime: 16:00
-endTime: 17:00
+date: 2021-12-10T16:00:00+03:00
+duration: PT1H
 broadcasts: []

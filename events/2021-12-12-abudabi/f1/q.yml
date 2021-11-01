@@ -1,7 +1,6 @@
 series: f1
 city: abudabi
 race: q
-date: 11.12.2021
-startTime: 16:00
-endTime: 17:00
+date: 2021-12-11T16:00:00+03:00
+duration: PT1H
 broadcasts: []

@@ -1,9 +1,8 @@
 series: f1
 city: america
 race: p3
-date: 23.10.2021
-startTime: 21:00
-endTime: 22:00
+date: 2021-10-23T21:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1419651_translation_Gran_pri_SShA_Svobodnaja_praktika_3
     audio: Владимир Башмаков
@@ -11,7 +10,7 @@ broadcasts:
     type: online
   - link: https://matchtv.ru/channel/igra
     audio: Владимир Башмаков
-    startTime: 20:55
+    intro: PT5M
     channel: matchtv
     channelName: Матч! Игра
     type: online

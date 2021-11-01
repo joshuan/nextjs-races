@@ -1,7 +1,6 @@
 series: f1
 city: saudi
 race: p1
-date: 03.12.2021
-startTime: 15:30
-endTime: 18:30
+date: 2021-12-03T15:30:00+03:00
+duration: PT1H
 broadcasts: []

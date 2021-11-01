@@ -1,9 +1,8 @@
 series: f2
 city: sochi
 race: q
-date: 24.09.2021
-startTime: 16:20
-endTime: 17:20
+date: 2021-09-24T16:20:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1405418_translation_Formula_2_Gran_pri_Rossii_Kvalifikacija
     audio: ...
@@ -14,4 +13,3 @@ broadcasts:
     channel: matchtv
     channelName: Матч! Страна
     type: online
-    startTime: 16:20

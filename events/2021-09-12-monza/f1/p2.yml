@@ -1,9 +1,8 @@
 series: f1
 city: monza
 race: p2
-date: 11.09.2021
-startTime: 13:00
-endTime: 14:00
+date: 2021-09-11T13:00:00+03:00
+duration: PT1H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398693_translation_Gran_pri_Italii_Svobodnaja_praktika_2
     audio: Владимир Башмаков

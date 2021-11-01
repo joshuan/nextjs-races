@@ -1,7 +1,6 @@
 series: f1
 city: brazil
 race: p1
-date: 12.11.2021
-startTime: 17:30
-endTime: 18:30
+date: 2021-11-12T17:30:00+03:00
+duration: PT1H
 broadcasts: []

@@ -1,18 +1,17 @@
 series: f1
 city: monza
 race: grandprix
-date: 12.09.2021
-startTime: 16:00
-endTime: 18:00
+date: 2021-09-12T16:00:00+03:00
+duration: PT2H
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398702_translation_Gran_pri_Italii
     audio: Алексей Попов, Наталья Фабричнова
     channel: sportbox
     type: online
-    startTime: 15:40
+    intro: PT20M
   - link: https://matchtv.ru/channel/matchtv
     audio: Алексей Попов, Наталья Фабричнова
     channel: matchtv
     channelName: Матч! ТВ
     type: online
-    startTime: 15:40
+    intro: PT20M
