@@ -1,10 +1,10 @@
 import { ICalLocation } from 'ical-generator';
-import { IRawEventWithDate } from '../../@types/types';
+import { IEvent } from '../../@types/types';
 
-export function renderGeo({ city }: IRawEventWithDate): ICalLocation | null {
-    if (city === 'monca') {
+export function renderGeo({ city }: IEvent): ICalLocation | null {
+    if (city === 'monza') {
         return {
-            title: 'monca, Италия',
+            title: 'monza, Италия',
             geo: {
                 lat: 45.6132,
                 lon: 9.2893,

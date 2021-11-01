@@ -2,11 +2,14 @@ import fs from 'fs';
 import path from 'path';
 import pify from 'pify';
 
-import { IRawFile } from '../../@types/types';
-
 const fsReadDir = pify(fs.readdir);
 const fsReadFile = pify(fs.readFile);
 const fsStats = pify(fs.lstat);
+
+export interface ISrc {
+    filename: string;
+    content: string;
+}
 
 async function readDir(root: string, dir: string = ''): Promise<string[]> {
     const filesAndDirs = await fsReadDir(path.join(root, dir));
@@ -40,7 +43,7 @@ function getFilename(file: string): string {
  * Получает путь до папки, где плоско лежат yaml файлы.
  * Читает их и отдает по каждому инфу: имя файла и его содержимое
  */
-export async function getRawEvents(dir: string): Promise<IRawFile[]> {
+export async function getRawEvents(dir: string): Promise<ISrc[]> {
     const files = await readDir(dir);
 
     return await Promise.all(files.map(async (file: string) => {

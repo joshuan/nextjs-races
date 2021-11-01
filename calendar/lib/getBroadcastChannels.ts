@@ -1,7 +1,7 @@
-import { IRawEventWithDate } from "../../@types/types";
+import { IEvent } from '../../@types/types';
 
-export function getBroadcastChannels(data: IRawEventWithDate[]): string[] {
-    return data.reduce<string[]>((acc, { broadcasts }) => {
+export function getBroadcastChannels(data: IEvent[]): string[] {
+    return data.reduce<string[]>((acc, {broadcasts}) => {
         const currentChannel = broadcasts[0]?.channel;
 
         if (!currentChannel) {

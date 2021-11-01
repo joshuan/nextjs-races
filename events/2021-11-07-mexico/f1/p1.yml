@@ -1,11 +1,11 @@
 series: f1
 city: mexico
-name: Первая сессия свободных заездов
+race: p1
 date: 05.11.2021
 startTime: 20:30
 endTime: 21:30
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1428410_translation_Gran_pri_Meksiki_Svobodnaja_praktika_1
-    channel: Sportbox
+    channel: sportbox
     type: online
     startTime: 20:25

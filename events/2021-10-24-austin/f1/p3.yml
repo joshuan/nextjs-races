@@ -1,16 +1,17 @@
 series: f1
 city: america
-name: Третья сессия свободных заездов
+race: p3
 date: 23.10.2021
 startTime: 21:00
 endTime: 22:00
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1419651_translation_Gran_pri_SShA_Svobodnaja_praktika_3
-    commentator: Владимир Башмаков
-    channel: Sportbox
+    audio: Владимир Башмаков
+    channel: sportbox
     type: online
   - link: https://matchtv.ru/channel/igra
-    commentator: Владимир Башмаков
+    audio: Владимир Башмаков
     startTime: 20:55
-    channel: Матч! Игра
+    channel: matchtv
+    channelName: Матч! Игра
     type: online

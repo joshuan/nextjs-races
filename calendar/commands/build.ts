@@ -20,7 +20,6 @@ import * as paths from '../paths';
         const processedEvents = parsedEvents.map(processDates);
 
         await writeFile(paths.json, renderJson(processedEvents));
-
         await writeFile(paths.ical, renderICal(makeICalEvents(processedEvents)));
 
         const broadcastEvents = getBroadcastEvents(processedEvents);

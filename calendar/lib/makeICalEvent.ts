@@ -1,36 +1,33 @@
-import { ICalEventData, ICalLocation } from 'ical-generator';
-import { IRawEventProcessed, IRawEventWithDate } from '../../@types/types';
+import {IEvent, IICalEvent} from '../../@types/types';
 import { renderTimes } from './renderTimes';
 import { renderGeo } from './renderGeo';
-import i18n from '../i18n/ru';
+import {BroadcastWorld} from '../../@types/i18n';
 
-function renderBroadcasts(event: IRawEventProcessed): string {
+function renderBroadcasts(event: IEvent): string {
     return event.broadcasts.map((broadcast, index) => {
-        const { link, commentator, channel, type, startDate, endDate } = broadcast;
+        const { link, audio, channel, type, startDate, endDate } = broadcast;
 
         return [
-            `${commentator}. ${channel} (${i18n.type[type] || type})`,
+            `${audio}. ${channel} (${BroadcastWorld[type]})`,
             renderTimes(event.startDate, startDate, endDate),
             index > 0 && link,
         ].filter(Boolean).join('. ');
     }).filter(Boolean).reverse().join('.\n---\n');
 }
 
-export function makeICalEvent(event: IRawEventWithDate): ICalEventData {
-    const category = event.category && i18n.category[event.category] ? `${i18n.category[event.category]} - ` : '';
-
+export function makeICalEvent(event: IEvent): IICalEvent {
     return {
         id: event.uid,
         start: event.startDate,
         end: event.endDate,
         timezone: 'Europe/Moscow',
-        summary: `${category}${event.name}`,
+        summary: `${event.seriesName} ${event.raceName} (${event.cityName})`,
         location: renderGeo(event),
         description: renderBroadcasts(event),
         url: event.broadcasts[0]?.link,
     };
 }
 
-export function makeICalEvents(events: IRawEventWithDate[]): ICalEventData[] {
+export function makeICalEvents(events: IEvent[]): IICalEvent[] {
     return events.map(makeICalEvent);
 }

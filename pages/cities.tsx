@@ -1,12 +1,12 @@
-import React from "react";
-import Link from 'next/link'
-import cities from "../lib/data";
+import React from 'react';
+import Link from 'next/link';
+import cities from '../lib/data';
 import moment from '../lib/moment';
 
 function CityDates({ list }: { list: IServerEvents[] }) {
     const times = list.map((item) => (new Date(item.startDate)).getTime());
-    const min = new Date(Math.min(...times));
-    const max = new Date(Math.max(...times));
+    const min   = new Date(Math.min(...times));
+    const max   = new Date(Math.max(...times));
 
     return `${moment(min).format('L')} - ${moment(max).format('L')}`;
 }
@@ -26,7 +26,7 @@ export default function CitiesPage() {
                         </Link>
                     </td>
                     <td>
-                        <CityDates list={list} />
+                        <CityDates list={list}/>
                     </td>
                     <td>
                         {isNow(list) ? 'NOW!' : ''}

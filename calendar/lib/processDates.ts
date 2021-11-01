@@ -1,4 +1,6 @@
-import { IRawEventData, IRawEventWithDate } from "../../@types/types";
+import { IRawEventWithUid } from '../../@types/database';
+import { IEvent } from '../../@types/types';
+import * as i18n from '../../@types/i18n';
 
 function createDate(date: string, time: string): Date {
     const [day, month, year] = date.split('.');
@@ -13,16 +15,34 @@ function createDate(date: string, time: string): Date {
     );
 }
 
-export function processDates(event: IRawEventData): IRawEventWithDate {
+export function processDates(data: IRawEventWithUid): IEvent {
+    const {
+        date,
+        startTime,
+        endTime,
+        ...event
+    } = data;
+
     return {
         ...event,
-        startDate: createDate(event.date, event.startTime),
-        endDate: createDate(event.date, event.endTime),
-        broadcasts: event.broadcasts.map((broadcast) => {
+        cityName: i18n.Cities[data.city],
+        seriesName: i18n.Series[data.series],
+        raceName: i18n.Races[data.race],
+        startDate: createDate(date, startTime),
+        endDate: createDate(date, endTime),
+        broadcasts: event.broadcasts.map((broadcastData) => {
+            const {
+                date: broadcastDate = date,
+                startTime: broadcastStartTime = startTime,
+                endTime: broadcastEndTime = endTime,
+                ...broadcast
+            } = broadcastData;
+
             return {
                 ...broadcast,
-                startDate: createDate(broadcast.date || event.date, broadcast.startTime || event.startTime),
-                endDate: createDate(broadcast.date || event.date, broadcast.endTime || event.endTime),
+                typeName: i18n.BroadcastWorld[broadcast.type],
+                startDate: createDate(broadcastDate, broadcastStartTime),
+                endDate: createDate(broadcastDate, broadcastEndTime),
             };
         }),
     };

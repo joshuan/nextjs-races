@@ -1,77 +1,27 @@
 import { ICalEvent, ICalEventData } from 'ical-generator';
+import { IRawEvent, IRawBroadcast } from './database';
 
-export type IEvent = ICalEvent | ICalEventData;
+export type IICalEvent = ICalEvent | ICalEventData;
 
-export type TBroadcastType = 'online' | 'offline' | 'record';
+type TDatable<T> = Omit<T, 'date' | 'startTime' | 'endTime'> & {
+    startDate: Date;
+    endDate: Date;
+};
 
-export type TEventCategory = 'f1' | 'f2' | 'f3';
+export type IEventBroadcast = TDatable<IRawBroadcast> & {
+    typeName: string;
+};
 
-export type TChannel = 'sportbox' | 'matchtv';
+export type IEvent = Omit<TDatable<IRawEvent>, 'broadcasts'> & {
+    uid: string;
+    cityName: string;
+    seriesName: string;
+    raceName: string;
+    broadcasts: IEventBroadcast[];
+};
 
-export enum Cities {
-    monca = 'Монца',
-    sochi = 'Сочи',
-    turkey = 'Турция',
-    america = 'Америка',
-    mexico = 'Мехико',
-    brazil = 'Бразилия',
-    saudi = 'Джидда',
-    abudabi = 'Абу-Даби',
-}
-
-export interface IRawFile {
-    filename: string;
-    content: string;
-}
-
-export interface IBroadcast {
-    link: string;
-    commentator: string;
-    channel: TChannel;
-    channelName?: string;
-    type: TBroadcastType;
-    date?: string;
-    startTime?: string;
-    endTime?: string;
-}
-
-export interface IRawEvent {
-    category: TEventCategory;
-    name: string;
-    date: string;
-    startTime: string;
-    endTime: string;
-    city?: string;
-    broadcasts: IBroadcast[];
-}
-
-export type IRawEventData = IRawEvent & { uid: string; };
-
-export interface IDateble<T> {
-    startDate: T;
-    endDate: T;
-}
-
-export type IBroadcastWithDate = IBroadcast & IDateble<Date>;
-export type ISavedBroadcastWithDate = IBroadcast & IDateble<string>;
-
-export interface IRawEventWithDate extends IRawEventData, IDateble<Date> {
-    broadcasts: IBroadcastWithDate[];
-}
-
-export interface ISavedEventWithDate extends IRawEventData, IDateble<string> {
-    broadcasts: ISavedBroadcastWithDate[];
-}
-
-export type IRawEventProcessed = IRawEventWithDate;
-
-export type IServerEvents = ISavedEventWithDate & {
+export interface IServerEvents extends IEvent {
     onThisWeek: boolean;
     isStarted: boolean;
     isEnded: boolean;
-}
-
-export interface IServerGroups {
-    city: string;
-    list: IServerEvents[];
 }

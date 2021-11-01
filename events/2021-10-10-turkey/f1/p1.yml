@@ -1,16 +1,17 @@
 series: f1
 city: turkey
-name: Первая сессия свободных заездов
+race: p1
 date: 08.10.2021
 startTime: 11:30
 endTime: 12:30
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1413053_translation_Gran_pri_Turcii_Svobodnaja_praktika_1
-    commentator: Владимир Башмаков
-    channel: Sportbox
+    audio: Владимир Башмаков
+    channel: sportbox
     type: online
   - link: https://matchtv.ru/channel/arena
-    commentator: Владимир Башмаков
+    audio: Владимир Башмаков
     startTime: 11:25
-    channel: Матч! Арена
+    channel: matchtv
+    channelName: Матч! Арена
     type: online

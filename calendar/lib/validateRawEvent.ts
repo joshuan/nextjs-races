@@ -1,7 +1,5 @@
 import Validator from 'fastest-validator';
-import { IRawEvent } from '../../@types/types';
-import schema from '../schema';
-// import schema from '../../@types/schema.json';
+import { IRawEvent, schema } from '../../@types/database';
 
 const v = new Validator();
 

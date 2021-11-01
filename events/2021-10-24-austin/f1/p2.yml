@@ -1,15 +1,16 @@
 series: f1
 city: america
-name: Вторая сессия свободных заездов
+race: p2
 date: 22.10.2021
 startTime: 23:00
 endTime: 23:59
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1419635_translation_Gran_pri_SShA_Svobodnaja_praktika_2
-    commentator: Владимир Башмаков
-    channel: Sportbox
+    audio: Владимир Башмаков
+    channel: sportbox
     type: online
   - link: https://matchtv.ru/channel/arena
-    commentator: Владимир Башмаков
-    channel: Матч! Арена
+    audio: Владимир Башмаков
+    channel: matchtv
+    channelName: Матч! Арена
     type: online

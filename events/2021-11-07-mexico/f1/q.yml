@@ -1,11 +1,11 @@
 series: f1
 city: mexico
-name: Квалификация
+race: q
 date: 06.11.2021
 startTime: 23:00
 endTime: 23:59
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1426969_translation_Gran_pri_Meksiki_Kvalifikacija
-    channel: Sportbox
+    channel: sportbox
     type: online
     startTime: 22:55

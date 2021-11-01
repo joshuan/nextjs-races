@@ -1,13 +1,5 @@
-import React from "react";
-import {RaceDate} from "./RaceDate";
-
-function getCategory(category: string): string {
-    return {
-        f1: 'Формула 1',
-        f2: 'Формула 2',
-        f3: 'Формула 3',
-    }[category] || 'Unknown category!';
-}
+import React from 'react';
+import { RaceDate } from './RaceDate';
 
 export default function City({ name, events }: { name: string; events?: any[] }) {
     return (
@@ -23,7 +15,7 @@ export default function City({ name, events }: { name: string; events?: any[] })
             </tr>
             {events && events.map((item) => (
                 <tr key={item.uid}>
-                    <td className="race-category">{getCategory(item.category)}</td>
+                    <td className="race-category">{item.categoryName}</td>
                     <td className="race-name">{item.name}</td>
                     <td className="race-date">
                         <RaceDate {...item} />
@@ -41,23 +33,23 @@ export default function City({ name, events }: { name: string; events?: any[] })
                     </td>
                 </tr>
             ))}
-            <style jsx>{`               
-                .city {
-                  border-left: 0;
-                  border-right: 0;
-                }
-        
-                .race-name {
-                  font-weight: bold;
-                }
-                
-                .race-date {
-                  
-                }
-                
-                .broadcast {
-                  margin: 0.2em 0;
-                }
+            <style jsx>{`
+              .city {
+                border-left: 0;
+                border-right: 0;
+              }
+
+              .race-name {
+                font-weight: bold;
+              }
+
+              .race-date {
+
+              }
+
+              .broadcast {
+                margin: 0.2em 0;
+              }
             `}</style>
         </>
     );

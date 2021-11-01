@@ -1,7 +1,7 @@
 import ical from 'ical-generator';
-import { IEvent } from '../../@types/types';
+import { IICalEvent } from '../../@types/types';
 
-export function renderICal(events: IEvent[]): string {
+export function renderICal(events: IICalEvent[]): string {
     const cal = ical({
         description: 'Календарь формульных событий',
         name: 'Formula',

@@ -1,7 +1,7 @@
-import { IRawEventWithDate } from '../../@types/types';
+import { IEvent } from '../../@types/types';
 
-export function getBroadcastEvents(events: IRawEventWithDate[]): IRawEventWithDate[] {
-    return events.reduce<IRawEventWithDate[]>((acc, event) => {
+export function getBroadcastEvents(events: IEvent[]): IEvent[] {
+    return events.reduce<IEvent[]>((acc, event) => {
         event.broadcasts.forEach((broadcast) => {
             acc.push({
                 ...event,

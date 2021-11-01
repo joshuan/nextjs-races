@@ -1,5 +1,3 @@
-import { IRawEventWithDate } from '../../@types/types';
-
-export function renderJson(events: IRawEventWithDate[]): string {
+export function renderJson(events: object[]): string {
     return JSON.stringify(events, null, 4);
 }
