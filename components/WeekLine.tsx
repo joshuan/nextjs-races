@@ -61,6 +61,66 @@ function RaceLine({ event, minDate, fullWidth }) {
     );
 }
 
+const HOUR = 1000 * 60 * 60;
+
+function pad(x: number) {
+    return x < 10 ? `0${x}` : `${x}`;
+}
+
+function getTimeString(time: number) {
+    const d = new Date(time);
+
+    return `${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+function Times({ min, max }) {
+    const list = [];
+    let i = min;
+    const maxDiff = max - min;
+    let j = 0;
+
+    while (i < max) {
+        list.push({
+            perc: ((i - min) / maxDiff) * 100,
+            time: getTimeString(i),
+            index: j,
+        });
+        j++;
+        i += HOUR;
+    }
+
+    return (
+        <div>
+            {list.map(({ perc, time, index }) => (
+                <div
+                    key={`time-${time}-${index}`}
+                    style={{
+                        position: 'absolute',
+                        top: '30px',
+                        left: `${perc}%`,
+                        height: '20px',
+                        width: '1px',
+                        borderLeft: '1px solid #ccc',
+                    }}
+                >
+                    {index % 6 === 0 ? (
+                        <div
+                            style={{
+                                position: 'absolute',
+                                top: '20px',
+                                borderLeft: '1px solid #ccc',
+                                fontSize: '0.75em',
+                            }}
+                        >
+                            {time}
+                        </div>
+                    ) : ''}
+                </div>
+            ))}
+        </div>
+    );
+}
+
 export default function WeekLine({ events }: WeelLineProps) {
     const maxDate = getMaxDate(events);
     const minDate = getMinDate(events, maxDate);
@@ -68,6 +128,7 @@ export default function WeekLine({ events }: WeelLineProps) {
 
     return (
         <div>
+            <Times min={minDate} max={maxDate} />
             {events.map((event) => (
                 <RaceLine
                     key={event.uid}

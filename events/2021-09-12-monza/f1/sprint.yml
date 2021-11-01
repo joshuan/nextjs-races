@@ -2,7 +2,7 @@ series: f1
 city: monza
 race: sprint
 date: 2021-09-11T17:30:00+03:00
-duration: PT1H
+duration: PT30M
 broadcasts:
   - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1398696_translation_Gran_pri_Italii_Sprint_kvalifikacija
     audio: Алексей Попов, Наталья Фабричнова
