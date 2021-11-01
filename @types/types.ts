@@ -3,7 +3,7 @@ import { IRawEvent, IRawBroadcast } from './database';
 
 export type IICalEvent = ICalEvent | ICalEventData;
 
-type TDatable<T> = Omit<T, 'date' | 'startTime' | 'endTime'> & {
+type TDatable<T> = Omit<T, 'date' | 'duration'> & {
     startDate: Date;
     endDate: Date;
 };

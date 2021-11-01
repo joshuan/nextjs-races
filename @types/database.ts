@@ -7,18 +7,17 @@ export interface IRawBroadcast {
     channel: TChannels;
     channelName?: string;
     type: TBroadcastWorld;
-    date?: string;
-    startTime?: string;
-    endTime?: string;
+    intro?: string;
+    date?: string; // ISO 8601 Date. Ex. 2021-11-01T18:24:16+03:00
+    duration?: string; // ISO 8601 Date Interval. Ex. PT10M (= 10 min)
 }
 
 export interface IRawEvent {
     series: TSeries;
     race: TRaces;
     city: TCities;
-    date: string;
-    startTime: string;
-    endTime: string;
+    date: string; // ISO 8601 Date. Ex. 2021-11-01T18:24:16+03:00
+    duration: string; // ISO 8601 Date Interval. Ex. PT10M (= 10 min)
     broadcasts: IRawBroadcast[];
 }
 
@@ -30,9 +29,8 @@ export const schema = {
     $$strict: true,
     series: { type: 'enum', values: Object.keys(Series) },
     race: { type: 'enum', values: Object.keys(Races) },
-    date: { type: 'string' },
-    startTime: { type: 'string' },
-    endTime: { type: 'string' },
+    date: { type: 'date' },
+    duration: { type: 'string' },
     city: { type: 'enum', values: Object.keys(Cities) },
     broadcasts: {
         type: 'array',
@@ -45,9 +43,9 @@ export const schema = {
                 channel: { type: 'enum', values: Object.keys(Channels) },
                 channelName: { type: 'string', optional: true },
                 type: { type: 'enum', values: Object.keys(BroadcastWorld) },
-                date: { type: 'string', optional: true },
-                startTime: { type: 'string', optional: true },
-                endTime: { type: 'string', optional: true },
+                intro: { type: 'string', optional: true },
+                date: { type: 'date', optional: true },
+                duration: { type: 'string', optional: true },
             }
         },
     },
