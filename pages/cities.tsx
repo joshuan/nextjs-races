@@ -19,21 +19,21 @@ function isNow(list) {
 export default function CitiesPage() {
     return (
         <table cellSpacing={0}>
-            {cities.map(({ city, list }) => (
-                <tr key={city}>
-                    <td>
-                        <Link href={`/city/${encodeURIComponent(city)}`}>
-                            {i18n.Cities[city]}
-                        </Link>
-                    </td>
-                    <td>
-                        <CityDates list={list}/>
-                    </td>
-                    <td>
-                        {isNow(list) ? 'NOW!' : ''}
-                    </td>
-                </tr>
-            ))}
+            <tbody>
+                {cities.map(({ city, list }) => (
+                    <tr key={city}>
+                        <td>
+                            <Link href={`/city/${encodeURIComponent(city)}`}>
+                                {i18n.Cities[city]}
+                            </Link>
+                            {isNow(list) ? ' 🏎 NOW! 🏎' : ''}
+                        </td>
+                        <td>
+                            <CityDates list={list}/>
+                        </td>
+                    </tr>
+                ))}
+            </tbody>
         </table>
     );
 }
