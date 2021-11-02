@@ -1,0 +1,17 @@
+.raceLine {
+    position: absolute;
+    width: 0;
+    height: 50px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: #eee;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    overflow-wrap: break-word;
+    font-size: 10px;
+}
+
+.raceLineHover {
+    background: #ffff00;
+}

@@ -44,9 +44,10 @@ function groupByCity(events: IEvent[]): IServerCitiesGroup[] {
 
             return acc;
         }, [] as { city: string; list: IEvent[]; minDates: Date[]; maxDates: Date[] }[])
-        .map(({ minDates, maxDates, ...item }) => {
+        .map(({ minDates, maxDates, list, ...item }) => {
             return {
                 ...item,
+                list: list.sort((a, b) => a.startDate.getTime() - b.startDate.getTime()),
                 firstDate: minDates.sort((a: Date, b: Date) => a.getTime() - b.getTime())[0],
                 lastDate: maxDates.sort((a: Date, b: Date) => b.getTime() - a.getTime())[0],
             };

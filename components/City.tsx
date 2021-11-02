@@ -1,8 +1,17 @@
-import React from 'react';
+import React  from 'react';
 import { RaceDate } from './RaceDate';
 import * as i18n from '../@types/i18n';
+import { IEvent } from '../@types/types';
 
-export default function City({ name, events }: { name: string; events?: any[] }) {
+interface CityProps {
+    name: string;
+    events?: IEvent[];
+    hoveredEventUid: string | null;
+    onEventHover(eventUid: string): void;
+    onEventLeave(): void;
+}
+
+export default function City({ name, events, hoveredEventUid, onEventHover, onEventLeave }: CityProps) {
     return (
         <>
             <tr>
@@ -15,7 +24,12 @@ export default function City({ name, events }: { name: string; events?: any[] })
                 </td>
             </tr>
             {events && events.map((item) => (
-                <tr key={item.uid}>
+                <tr
+                    key={item.uid}
+                    onMouseEnter={() => onEventHover(item.uid)}
+                    onMouseLeave={onEventLeave}
+                    className={hoveredEventUid === item.uid ? 'race-tr-hover' : ''}
+                >
                     <td className="race-category">{item.seriesName}</td>
                     <td className="race-name">{item.raceName}</td>
                     <td className="race-date">
@@ -42,16 +56,16 @@ export default function City({ name, events }: { name: string; events?: any[] })
                 border-right: 0;
               }
               
+              .race-tr-hover td {
+                background: #ffff00;
+              }
+              
               .race-type {
                 color: #bbb;
               }
 
               .race-name {
                 font-weight: bold;
-              }
-
-              .race-date {
-
               }
 
               .broadcast {

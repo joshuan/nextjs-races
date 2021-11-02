@@ -1,148 +1,92 @@
-import React from 'react';
-import { IServerEvent } from '../@types/types';
+import React, { useCallback } from 'react';
+import { IEvent } from '../@types/types';
 
-interface WeelLineProps {
-    events: IServerEvent[];
+import { Times } from './TImes';
+import { RaceLine } from './RaceLine';
+
+interface WeekLineProps {
+    events: IEvent[];
+    hoveredEventUid: null | string;
+    onEventHover(eventUid: string): void;
+    onEventLeave(): void;
 }
 
-function getTime(date: string) {
-    return (new Date(date)).getTime();
-}
-
-function getMinDate(events: IServerEvent[], maxDate: number = Date.now()): number {
+function getMinDate(events: IEvent[], maxDate: number = Date.now()): number {
     const time = events.reduce<number>((min, event) => {
-        return Math.min(min, getTime(event.startDate));
+        return Math.min(min, event.startDate.getTime());
     }, maxDate);
 
     const date = new Date(time);
 
-    date.setHours(8);
+    date.setHours(6);
     date.setMinutes(0);
     date.setSeconds(0);
 
     return date.getTime();
 }
 
-function getMaxDate(events: IServerEvent[]): number {
+function getMaxDate(events: IEvent[]): number {
     const time = events.reduce<number>((max, event) => {
-        return Math.max(max, getTime(event.endDate));
+        return Math.max(max, event.endDate.getTime());
     }, 0);
 
     const date = new Date(time);
 
-    date.setHours(20);
+    date.setHours(23);
     date.setMinutes(0);
     date.setSeconds(0);
 
     return date.getTime();
 }
 
-function RaceLine({ event, minDate, fullWidth }) {
-    const width = getTime(event.endDate) - getTime(event.startDate);
-    const left = getTime(event.startDate) - minDate;
-
-    return (
-        <div>
-            {event.category} {event.name}
-            <style jsx>{`
-                position: absolute;
-                width:${(width / fullWidth) * 100}%;
-                height: 50px;
-                top: 0px;
-                left: ${(left / fullWidth) * 100}%;
-                overflow: hidden;
-                background: #eee;
-                border-right: 1px solid #ccc;
-                border-left: 1px solid #ccc;
-                overflow-wrap: break-word;
-                font-size: 10px;
-            `}</style>
-        </div>
-    );
-}
-
-const HOUR = 1000 * 60 * 60;
-
-function pad(x: number) {
-    return x < 10 ? `0${x}` : `${x}`;
-}
-
-function getTimeString(time: number) {
-    const d = new Date(time);
-
-    return `${pad(d.getHours())}:${pad(d.getMinutes())}`;
-}
-
-function Times({ min, max }) {
-    const list = [];
-    let i = min;
-    const maxDiff = max - min;
-    let j = 0;
-
-    while (i < max) {
-        list.push({
-            perc: ((i - min) / maxDiff) * 100,
-            time: getTimeString(i),
-            index: j,
-        });
-        j++;
-        i += HOUR;
-    }
-
-    return (
-        <div>
-            {list.map(({ perc, time, index }) => (
-                <div
-                    key={`time-${time}-${index}`}
-                    style={{
-                        position: 'absolute',
-                        top: '30px',
-                        left: `${perc}%`,
-                        height: '20px',
-                        width: '1px',
-                        borderLeft: '1px solid #ccc',
-                    }}
-                >
-                    {index % 6 === 0 ? (
-                        <div
-                            style={{
-                                position: 'absolute',
-                                top: '20px',
-                                borderLeft: '1px solid #ccc',
-                                fontSize: '0.75em',
-                            }}
-                        >
-                            {time}
-                        </div>
-                    ) : ''}
-                </div>
-            ))}
-        </div>
-    );
-}
-
-export default function WeekLine({ events }: WeelLineProps) {
+export default function WeekLine({ events, hoveredEventUid, onEventHover, onEventLeave }: WeekLineProps) {
     const maxDate = getMaxDate(events);
     const minDate = getMinDate(events, maxDate);
     const fullWidth = maxDate - minDate;
+    const now = new Date().getTime();
+
+    const onRaceHover = useCallback((eventUid) => {
+        onEventHover(eventUid);
+    }, [onEventHover]);
+
+    const onRaceLeave = useCallback(() => {
+        onEventLeave();
+    }, [onEventLeave]);
 
     return (
-        <div>
+        <div style={{
+            width: '100%',
+            border: '1px solid gray',
+            height: '50px',
+            position: 'sticky',
+            top: 0,
+            left: 0,
+            background: 'white',
+        }}>
             <Times min={minDate} max={maxDate} />
             {events.map((event) => (
                 <RaceLine
                     key={event.uid}
                     event={event}
-                    minDate={minDate}
+                    minTime={minDate}
                     fullWidth={fullWidth}
+                    hovered={hoveredEventUid === event.uid}
+                    onRaceHover={onRaceHover}
+                    onRaceLeave={onRaceLeave}
                 />
             ))}
-            <style jsx>{`
-                width: 100%;
-                border: 1px solid gray;
-                position: relative;
-                height: 50px;
-            `}</style>
+            {now >= minDate && now <= maxDate ? (
+                <div
+                    style={{
+                        position: 'absolute',
+                        top: '-10px',
+                        left: `${((now - minDate) / (maxDate - minDate)) * 100}%`,
+                        height: '80px',
+                        width: '1px',
+                        borderLeft: '1px solid #ff0000',
+                    }}
+                />
+            ) : ''}
         </div>
     );
 }
