@@ -4,7 +4,7 @@ import { renderGeo } from './renderGeo';
 
 function renderBroadcast(event: IEvent, broadcast: IEventBroadcast): string {
     return [
-        broadcast.channel,
+        broadcast.channelName,
         broadcast.audio,
         broadcast.typeName,
         renderTimes(event.startDate, broadcast.startDate, broadcast.endDate),
@@ -19,7 +19,6 @@ export function makeICalBroadcasts(events: IEvent[]): IICalEvent[] {
                 id: `${event.uid}-broadcast-${index}`,
                 start: broadcast.startDate,
                 end: broadcast.endDate,
-                timezone: 'Europe/Moscow',
                 summary: `${event.seriesName} ${event.raceName} (${event.cityName})`,
                 location: renderGeo(event),
                 description: renderBroadcast(event, broadcast),
