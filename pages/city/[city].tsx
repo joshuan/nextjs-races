@@ -41,7 +41,7 @@ export default function CityPage() {
                 onEventHover={eventHoverHandle}
                 onEventLeave={eventLeaveHandle}
             />
-            <table cellSpacing={0}>
+            <table cellSpacing={0} style={{ width: '100%', maxWidth: '1000px', margin: '0 auto' }}>
                 <tbody>
                     <City
                         name={i18n.Cities[city]}
