@@ -1,39 +1,57 @@
 import moment from './moment';
-import rawData from '../public/calendar.json';
-import { IDateble, ISavedEventWithDate, IServerEvents, IServerGroups } from '../@types/types';
+import rawEvents from '../public/calendar.json';
+import { IServerCitiesGroup, IEvent } from '../@types/types';
 
-function groupByCity(data: IServerEvents[]): IServerGroups[] {
-    const results: IServerGroups[] = [];
+function convertDates<T extends { startDate: string; endDate: string; }>(item: T) {
+    const { startDate, endDate, ...data } = item;
 
-    data.forEach((item) => {
-        const itemCity = item.city || 'unknownCity';
-        const index    = results.findIndex((result) => result.city === itemCity);
+    return {
+        ...data,
+        startDate: new Date(startDate),
+        endDate: new Date(endDate),
+    }
+}
 
-        if (index === -1) {
-            results.push({ city: itemCity, list: [ item ] });
-        } else {
-            results[index].list.push(item);
-        }
+const events = (rawEvents as IEvent<string>[])
+    .sort((a, b) => moment(a.startDate).isBefore(moment(b.startDate)) ? 1 : -1)
+    .map<IEvent>((item) => {
+        const { broadcasts, ...event } = item;
+
+        return {
+            ...convertDates(event),
+            broadcasts: broadcasts.map(convertDates),
+        };
     });
 
-    return results;
-}
+function groupByCity(events: IEvent[]): IServerCitiesGroup[] {
+    return events
+        .reduce((acc, event) => {
+            const itemCity = event.city || 'unknownCity';
+            const index = acc.findIndex((result) => result.city === itemCity);
 
-function sortRawData(a: IDateble<string>, b: IDateble<string>) {
-    return a.startDate > b.startDate ? 1 : -1;
-}
+            if (index === -1) {
+                acc.push({
+                    city: itemCity,
+                    list: [ event ],
+                    minDates: [ event.startDate ],
+                    maxDates: [ event.endDate ],
+                });
+            } else {
+                acc[index].list.push(event);
+                acc[index].minDates.push(event.startDate);
+                acc[index].maxDates.push(event.endDate);
+            }
 
-const data = groupByCity(
-    (rawData as ISavedEventWithDate[])
-        .sort(sortRawData)
-        .map<IServerEvents>((item) => {
+            return acc;
+        }, [] as { city: string; list: IEvent[]; minDates: Date[]; maxDates: Date[] }[])
+        .map(({ minDates, maxDates, ...item }) => {
             return {
                 ...item,
-                onThisWeek: moment(item.startDate).isSame(new Date(), 'week'),
-                isStarted: moment(item.startDate).isBefore(new Date()),
-                isEnded: moment(item.endDate).isBefore(new Date()),
+                firstDate: minDates.sort((a: Date, b: Date) => a.getTime() - b.getTime())[0],
+                lastDate: maxDates.sort((a: Date, b: Date) => b.getTime() - a.getTime())[0],
             };
         })
-);
+        .sort((a, b) => b.firstDate.getTime() - a.firstDate.getTime());
+}
 
-export default data;
+export default groupByCity(events);

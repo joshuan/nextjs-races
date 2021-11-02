@@ -1,15 +1,15 @@
 import React from 'react';
-import { IServerEvents } from '../@types/types';
+import { IServerEvent } from '../@types/types';
 
 interface WeelLineProps {
-    events: IServerEvents[];
+    events: IServerEvent[];
 }
 
 function getTime(date: string) {
     return (new Date(date)).getTime();
 }
 
-function getMinDate(events: IServerEvents[], maxDate: number = Date.now()): number {
+function getMinDate(events: IServerEvent[], maxDate: number = Date.now()): number {
     const time = events.reduce<number>((min, event) => {
         return Math.min(min, getTime(event.startDate));
     }, maxDate);
@@ -23,7 +23,7 @@ function getMinDate(events: IServerEvents[], maxDate: number = Date.now()): numb
     return date.getTime();
 }
 
-function getMaxDate(events: IServerEvents[]): number {
+function getMaxDate(events: IServerEvent[]): number {
     const time = events.reduce<number>((max, event) => {
         return Math.max(max, getTime(event.endDate));
     }, 0);
