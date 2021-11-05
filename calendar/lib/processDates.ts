@@ -23,6 +23,7 @@ export function processDates(data: IRawEventWithUid): IEvent {
         broadcasts: event.broadcasts.map((broadcastData) => {
             const {
                 intro,
+                channelName,
                 date: broadcastDate = date,
                 ...broadcast
             } = broadcastData;
@@ -36,6 +37,7 @@ export function processDates(data: IRawEventWithUid): IEvent {
 
             return {
                 ...broadcast,
+                channelName: channelName || i18n.Channels[broadcast.channel],
                 typeName: i18n.BroadcastWorld[broadcast.type],
                 startDate: broadcastStartDate.toDate(),
                 endDate: broadcastEndDate.toDate(),
