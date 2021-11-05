@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import data from '../lib/data';
+import { calendar as data } from '../lib/data';
 import moment from '../lib/moment';
 import * as i18n from '../@types/i18n';
 import { IEvent, IServerCitiesGroup } from '../@types/types';

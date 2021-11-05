@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import data from "../../lib/data";
+import { calendar as data } from "../../lib/data";
 import City from "../../components/City";
 import WeekLine from '../../components/WeekLine';
 import * as i18n from '../../@types/i18n';

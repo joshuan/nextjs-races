@@ -14,18 +14,30 @@ import * as paths from '../paths';
 
 (async function() {
     try {
-        const rawEvents = await getRawEvents(paths.source);
-        const parsedEvents = await parseRawEvents(rawEvents);
+        const rawEvents = await getRawEvents(paths.getSourcePath());
+        const processedEvents = (await parseRawEvents(rawEvents))
+            .map(processDates);
 
-        const processedEvents = parsedEvents.map(processDates);
-
-        await writeFile(paths.json, renderJson(processedEvents));
-        await writeFile(paths.ical, renderICal(makeICalEvents(processedEvents)));
+        await writeFile(
+            paths.getDatabasePath(paths.DataFile.CALENDAR, paths.Format.JSON),
+            renderJson(processedEvents),
+        );
+        await writeFile(
+            paths.getPublicPath(paths.PublicFile.CALENDAR, paths.Format.ICAL),
+            renderICal(makeICalEvents(processedEvents)),
+        );
 
         const broadcastEvents = getBroadcastEvents(processedEvents);
         const broadcastChannels = getBroadcastChannels(broadcastEvents);
 
-        await writeFile(paths.getBroadcastPath(), renderICal(makeICalBroadcasts(processedEvents)));
+        await writeFile(
+            paths.getDatabasePath(paths.DataFile.CHANNELS, paths.Format.JSON),
+            renderJson(Object.values(broadcastChannels)),
+        );
+        await writeFile(
+            paths.getBroadcastPath(),
+            renderICal(makeICalBroadcasts(processedEvents)),
+        );
 
         for (let index in broadcastChannels) {
             const channel = broadcastChannels[index];

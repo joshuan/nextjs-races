@@ -1,6 +1,9 @@
 import moment from './moment';
-import rawEvents from '../public/calendar.json';
+import rawEvents from '../data/calendar.json';
+import rawChannels from '../data/channels.json';
 import { IServerCitiesGroup, IEvent } from '../@types/types';
+import { TChannels } from '../@types/fields';
+import * as i18n from '../@types/i18n';
 
 function convertDates<T extends { startDate: string; endDate: string; }>(item: T) {
     const { startDate, endDate, ...data } = item;
@@ -55,4 +58,13 @@ function groupByCity(events: IEvent[]): IServerCitiesGroup[] {
         .sort((a, b) => b.firstDate.getTime() - a.firstDate.getTime());
 }
 
-export default groupByCity(events);
+export const calendar = groupByCity(events);
+
+function prepareChannels(channels: TChannels[]) {
+    return channels.map((channel) => ({
+        channel,
+        channelName: i18n.Channels[channel],
+    }))
+}
+
+export const channels = prepareChannels(rawChannels);

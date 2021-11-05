@@ -1,15 +1,43 @@
 import path from 'path';
 
-export const source = path.resolve(__dirname, '../events');
-export const dist = path.resolve(__dirname, '../public');
+enum Storage {
+    Source = 'events',
+    Public = 'public',
+    Database = 'data',
+}
 
-export const json = path.resolve(dist, 'calendar.json');
-export const ical = path.resolve(dist, 'calendar.ics');
+export enum DataFile {
+    CHANNELS = 'channels',
+    CALENDAR = 'calendar',
+}
 
-export function getBroadcastPath(name?: string) {
-    if (name) {
-        return path.resolve(dist, `calendar-broadcast-${name}.ics`);
-    }
+export enum PublicFile {
+    CALENDAR = 'calendar',
+}
 
-    return path.resolve(dist, 'calendar-broadcast.ics');
+export enum Format {
+    JSON = 'json',
+    ICAL = 'ics',
+}
+
+function resolve(storage: Storage, file?: string) {
+    return path.resolve(__dirname, '..', storage, file || '');
+}
+
+export function getSourcePath() {
+    return resolve(Storage.Source);
+}
+
+export function getDatabasePath(file: DataFile, type: Format = Format.ICAL) {
+    return resolve(Storage.Database, `${file}.${type}`);
+}
+
+export function getPublicPath(file: PublicFile, type: Format = Format.ICAL) {
+    return resolve(Storage.Public, `${file}.${type}`);
+}
+
+export function getBroadcastPath(name?: string, type: Format = Format.ICAL) {
+    const file = name ? `${PublicFile.CALENDAR}-broadcast-${name}` : `${PublicFile.CALENDAR}-broadcast`;
+
+    return resolve(Storage.Public, `${file}.${type}`);
 }
