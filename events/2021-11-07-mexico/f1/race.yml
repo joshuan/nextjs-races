@@ -8,3 +8,9 @@ broadcasts:
     channel: sportbox
     type: online
     intro: PT15M
+  - link: https://matchtv.ru/channel/matchtv
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: matchtv
+    channelName: Матч! ТВ
+    type: online
+    intro: PT15M
