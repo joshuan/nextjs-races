@@ -1,6 +1,4 @@
 import { getRawEvents } from '../lib/getRawEvents';
-import { parseRawEvents } from '../lib/parseRawEvent';
-import { processDates } from '../lib/processDates';
 import { makeICalEvents } from '../lib/makeICalEvent';
 import { makeICalBroadcasts } from '../lib/makeICalBroadcasts';
 import { renderICal } from '../renderers/ical';
@@ -9,14 +7,17 @@ import { writeFile } from '../lib/writeFile';
 import { getBroadcastEvents } from '../lib/getBroadcastEvents';
 import { getBroadcastChannels } from '../lib/getBroadcastChannels';
 import { filterBroadcastByChannel } from '../lib/filterBroadcastByChannel';
+import { processEvents } from '../lib/processEvents';
+import { parseRawEvents } from '../lib/parseRawEvent';
+import { processDates } from '../lib/processDates';
 
 import * as paths from '../paths';
 
 (async function() {
     try {
         const rawEvents = await getRawEvents(paths.getSourcePath());
-        const processedEvents = (await parseRawEvents(rawEvents))
-            .map(processDates);
+        const events = (await parseRawEvents(rawEvents)).map(processDates);
+        const processedEvents = await processEvents(events);
 
         await writeFile(
             paths.getDatabasePath(paths.DataFile.CALENDAR, paths.Format.JSON),

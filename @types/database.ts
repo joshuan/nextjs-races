@@ -14,6 +14,7 @@ export interface IRawBroadcast {
 
 export interface IRawEvent {
     series: TSeries;
+    round: number;
     race: TRaces;
     city: TCities;
     date: string; // ISO 8601 Date. Ex. 2021-11-01T18:24:16+03:00
@@ -28,6 +29,7 @@ export interface IRawEventWithUid extends IRawEvent {
 export const schema = {
     $$strict: true,
     series: { type: 'enum', values: Object.keys(Series) },
+    round: { type: 'number' },
     race: { type: 'enum', values: Object.keys(Races) },
     date: { type: 'date' },
     duration: { type: 'string' },

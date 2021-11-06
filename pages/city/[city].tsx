@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { calendar as data } from "../../lib/data";
@@ -29,6 +29,28 @@ export default function CityPage() {
     const eventLeaveHandle = useCallback(() => {
         setHoveredEvent(null);
     }, []);
+    const firstEvent = events[0];
+
+    useEffect(() => {
+        if (firstEvent?.circuitLocation) {
+            window.ymaps.ready(() => {
+                window.circuitMap = new window.ymaps.Map('map', {
+                    center: [ firstEvent.circuitLocation[0], firstEvent.circuitLocation[1] ],
+                    zoom: 15,
+                    type: 'yandex#satellite',
+                });
+
+                const circuitObject = new ymaps.GeoObject({
+                    geometry: {
+                        type: "Point",
+                        coordinates: [ firstEvent.circuitLocation[0], firstEvent.circuitLocation[1] ],
+                    }
+                });
+
+                window.circuitMap.geoObjects.add(circuitObject);
+            });
+        }
+    }, [firstEvent]);
 
     return (
         <>
@@ -52,6 +74,15 @@ export default function CityPage() {
                     />
                 </tbody>
             </table>
+            <hr />
+            {firstEvent ? (
+                <>
+                    <h2>{firstEvent.weekName}</h2>
+                    <h3>{firstEvent.circuitName} - {firstEvent.locationName}</h3>
+                    <p><a href={firstEvent.wiki}>Отчет о гонке</a></p>
+                    <div id="map" style={{ width: '100%', height: '400px'}} />
+                </>
+            ) : ''}
         </>
     );
 }

@@ -18,6 +18,12 @@ export type IEvent<D = Date> = Omit<TDatable<IRawEvent, D>, 'broadcasts'> & {
     seriesName: string;
     raceName: string;
     broadcasts: IEventBroadcast<D>[];
+
+    weekName?: string;
+    circuitName?: string;
+    circuitLocation?: number[];
+    wiki?: string;
+    locationName?: string;
 };
 
 export interface IServerCitiesGroup {
