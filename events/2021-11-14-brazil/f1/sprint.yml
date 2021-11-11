@@ -4,4 +4,16 @@ city: brazil
 race: sprint
 date: 2021-11-13T22:30:00+03:00
 duration: PT30M
-broadcasts: []
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1430480_translation_Gran_pri_Brazilii_Sprint_kvalifikacija
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: sportbox
+    type: online
+    intro: PT5M
+  - link: https://matchtv.ru/channel/igra
+    audio: Алексей Попов, Наталья Фабричнова
+    channel: matchtv
+    channelName: Матч! Игра
+    type: online
+    intro: PT5M
+
