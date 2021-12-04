@@ -1,0 +1,11 @@
+series: f2
+round: 8
+city: abudabi
+race: p
+date: 2021-12-10T10:30:00+03:00
+duration: PT1H
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1448167_translation_Formula_2_Gran_pri_Abu_Dabi_Svobodnaja_praktika
+    audio: ...
+    channel: sportbox
+    type: online

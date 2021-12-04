@@ -1,0 +1,11 @@
+series: f2
+round: 8
+city: abudabi
+race: race1
+date: 2021-12-11T11:15:00+03:00
+duration: PT1H
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1448054_translation_Formula_2_Gran_pri_Abu_Dabi_Gonka_1
+    audio: ...
+    channel: sportbox
+    type: online
