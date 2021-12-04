@@ -2,6 +2,10 @@ series: f1
 round: 21
 city: saudi
 race: p2
-date: 2021-12-03T19:00:00+03:00
+date: 2021-12-03T20:00:00+03:00
 duration: PT1H
-broadcasts: []
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_1/spbvideo_NI1443202_translation_Gran_pri_Saudovskoj_Aravii_Svobodnaja_praktika_2
+    audio: Владимир Башмаков
+    channel: sportbox
+    type: online
