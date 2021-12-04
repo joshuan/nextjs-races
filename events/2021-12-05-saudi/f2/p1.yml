@@ -1,0 +1,11 @@
+series: f2
+round: 7
+city: saudi
+race: p
+date: 2021-12-03T14:10:00+03:00
+duration: PT1H
+broadcasts:
+  - link: https://news.sportbox.ru/Vidy_sporta/Avtosport/Formula_2/spbvideo_NI1443192_translation_Formula_2_Gran_pri_Saudovskoj_Aravii_Svobodnaja_praktika
+    audio: ...
+    channel: sportbox
+    type: online
