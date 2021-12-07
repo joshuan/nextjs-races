@@ -1,7 +1,7 @@
 import { IEvent, IICalEvent } from '../../@types/types';
 import { renderTimes } from './renderTimes';
 import { renderGeo } from './renderGeo';
-import { BroadcastWorld } from '../../@types/i18n';
+import { BroadcastWorld, SeriesShort } from '../../@types/i18n';
 
 function renderBroadcasts(event: IEvent): string {
     return event.broadcasts.map((broadcast, index) => {
@@ -20,7 +20,7 @@ export function makeICalEvent(event: IEvent): IICalEvent {
         id: event.uid,
         start: event.startDate,
         end: event.endDate,
-        summary: `${event.seriesName} ${event.raceName} (${event.cityName})`,
+        summary: `[${SeriesShort[event.series]}] ${event.raceName} (${event.cityName})`,
         location: renderGeo(event),
         description: renderBroadcasts(event),
         url: event.broadcasts[0]?.link,

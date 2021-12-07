@@ -12,6 +12,12 @@ export const Series: Record<TSeries, string> = {
     f3: 'Формула 3',
 };
 
+export const SeriesShort: Record<TSeries, string> = {
+    f1: 'Ф1',
+    f2: 'Ф2',
+    f3: 'Ф3',
+};
+
 export const Channels: Record<TChannels, string> = {
     sportbox: 'Sportbox',
     matchtv: 'Матч ТВ',

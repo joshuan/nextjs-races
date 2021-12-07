@@ -11,7 +11,6 @@ function renderBroadcastDescription(event: IEvent, broadcast: IEventBroadcast): 
     ].filter(Boolean).join('. ');
 }
 
-
 export function makeICalBroadcasts(events: IEvent[]): IICalEvent[] {
     return events.reduce<IICalEvent[]>((acc, event) => {
         event.broadcasts.forEach((broadcast, index) => {
@@ -19,7 +18,7 @@ export function makeICalBroadcasts(events: IEvent[]): IICalEvent[] {
                 id: `${event.uid}-broadcast-${index}`,
                 start: broadcast.startDate,
                 end: broadcast.endDate,
-                summary: `${event.seriesName} ${event.raceName} (${event.cityName}) [${broadcast.channelName}]`,
+                summary: `[${broadcast.channelName}] ${event.seriesName} ${event.raceName} (${event.cityName})`,
                 location: renderGeo(event),
                 description: renderBroadcastDescription(event, broadcast),
                 url: broadcast.link,
