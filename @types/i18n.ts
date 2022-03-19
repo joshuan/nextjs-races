@@ -20,6 +20,7 @@ export const SeriesShort: Record<TSeries, string> = {
 
 export const Channels: Record<TChannels, string> = {
     sportbox: 'Sportbox',
+    beonedge: 'Be on edge',
     matchtv: 'Матч ТВ',
     youtube: 'Youtube'
 };
@@ -33,6 +34,7 @@ export const Cities: Record<TCities, string> = {
     brazil: 'Бразилия',
     saudi: 'Джидда',
     abudabi: 'Абу-Даби',
+    bahrain: 'Бахрейн',
     qatar: 'Катар',
 };
 

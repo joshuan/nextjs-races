@@ -1,0 +1,10 @@
+series: f1
+round: 1
+city: bahrain
+race: q
+date: 2022-03-19T18:00:00+03:00
+duration: PT1H
+broadcasts:
+  - link: https://vk.com/video-88310283_456239670
+    channel: beonedge
+    type: online

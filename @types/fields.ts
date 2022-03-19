@@ -22,6 +22,7 @@ export type TRaces =
 
 export type TChannels =
     'sportbox' |
+    'beonedge' |
     'matchtv' |
     'youtube';
 
@@ -34,4 +35,5 @@ export type TCities =
     'brazil' |
     'saudi' |
     'abudabi' |
+    'bahrain' |
     'qatar';
