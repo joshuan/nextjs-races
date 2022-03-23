@@ -3,7 +3,7 @@ import { IEvent } from '../../@types/types';
 import { getSeason } from './ergast/getSeason';
 
 export async function processGeo(item: IEvent) {
-    const season = await getSeason(2021);
+    const season = await getSeason(2022);
 
     if (!season[item.round]) {
         return item;

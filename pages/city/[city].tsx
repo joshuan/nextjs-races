@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { calendar as data } from "../../lib/data";
@@ -21,7 +21,7 @@ function getEvents(city: string) {
 
 export default function CityPage() {
     const router = useRouter();
-    const city = Array.isArray(router.query.city) ? router.query.city[0] : router.query.city;
+    const city = (Array.isArray(router.query.city) ? router.query.city[0] : router.query.city || 'unknown');
     const events = getEvents(city);
     const [hoveredEventUid, setHoveredEvent] = useState<string | null>(null);
     const eventHoverHandle = useCallback((eventUid: string) => {
