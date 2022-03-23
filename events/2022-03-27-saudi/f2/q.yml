@@ -1,0 +1,11 @@
+series: f2
+round: 2
+city: saudi
+race: q
+date: 2022-03-25T18:20:00+03:00
+duration: PT1H
+broadcasts:
+  - link: https://vk.com/video-88310283_456239687
+    audio: Дима Искрыч и Никита Кесарев
+    channel: beonedge
+    type: online

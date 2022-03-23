@@ -1,0 +1,18 @@
+series: f1
+round: 2
+city: saudi
+race: grandprix
+date: 2022-03-27T20:00:00+03:00
+duration: PT2H
+broadcasts:
+  - link: https://vk.com/video-88310283_456239691
+    audio: (Пререйс)
+    channel: beonedge
+    type: online
+    intro: PT1H
+    duration: PT1H
+  - link: https://vk.com/video-88310283_456239692
+    audio: Кирил Согач и Стив
+    channel: beonedge
+    type: online
+    intro: PT5M
