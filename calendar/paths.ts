@@ -41,3 +41,7 @@ export function getBroadcastPath(name?: string, type: Format = Format.ICAL) {
 
     return resolve(Storage.Public, `${file}.${type}`);
 }
+
+export function getErgastPath(name: string) {
+    return resolve(Storage.Database, `ergast-${name}.json`);
+}
