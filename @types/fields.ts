@@ -27,6 +27,7 @@ export type TChannels =
     'youtube';
 
 export type TCities =
+    'australia' |
     'monza' |
     'sochi' |
     'turkey' |

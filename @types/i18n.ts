@@ -36,6 +36,7 @@ export const Cities: Record<TCities, string> = {
     abudabi: 'Абу-Даби',
     bahrain: 'Бахрейн',
     qatar: 'Катар',
+    australia: 'Мельбурн',
 };
 
 export const Races: Record<TRaces, string> = {
