@@ -16,6 +16,7 @@ export type TRaces =
     'q' |
     'sprint' |
     'grandprix' |
+    'race' |
     'race1' |
     'race2' |
     'race3' ;
@@ -29,12 +30,31 @@ export type TChannels =
 export type TCities =
     'australia' |
     'monza' |
+    'albert_park' |
+    'imola' |
     'sochi' |
     'turkey' |
-    'america' |
-    'mexico' |
+    'americas' | //america' |
+    'rodriguez' | // 'mexico' |
     'brazil' |
     'saudi' |
-    'abudabi' |
+    'yas_marina' | // 'abudabi' |
     'bahrain' |
-    'qatar';
+    'monaco' |
+    'qatar' |
+    'interlagos' |
+    'suzuka' |
+    'marina_bay' |
+    'zandvoort' |
+    'spa' |
+    'hungaroring' |
+    'ricard' |
+    'silverstone' |
+    'villeneuve' |
+    'BAK' |
+    'catalunya' |
+    'miami' |
+    'jeddah' |
+    'red_bull_ring' // |
+    // '' |
+;
