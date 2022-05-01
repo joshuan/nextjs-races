@@ -1,0 +1,11 @@
+series: f1
+round: 2
+city: jeddah
+race: q
+date: 2022-03-26T20:00:00+03:00
+duration: PT1H
+broadcasts:
+  - link: https://vk.com/video-88310283_456239690
+    audio: Дима Искрыч и Вадим Химик
+    channel: beonedge
+    type: online
