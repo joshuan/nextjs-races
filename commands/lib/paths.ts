@@ -18,8 +18,8 @@ export function getFilePath(name: string) {
     return resolve(Storage.Database, name);
 }
 
-export function getErgastPath(year: string, filename: string = '', type?: FileType) {
-    const filepath = path.join(year, type ? filename + '.' + type : filename);
+export function getErgastPath(filename: string = '', type?: FileType) {
+    const filepath = path.join(type ? filename + '.' + type : filename);
 
     return resolve(Storage.Ergast, filepath);
 }

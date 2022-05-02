@@ -11,12 +11,12 @@
     "build:calendar": "ts-node calendar/commands/build.ts",
     "build:next": "next build",
     "start": "next start",
-    "ergast": "YEAR=2022 run-s ergast:prepare ergast:download ergast:extract ergast:convert ergast:clean",
-    "ergast:prepare": "mkdir -p ./data/ergast/$YEAR",
-    "ergast:download": "curl http://ergast.com/downloads/f1db_csv.zip -o ./data/ergast/$YEAR/f1db_csv.zip",
-    "ergast:extract": "unzip -o ./data/ergast/$YEAR/f1db_csv.zip -d ./data/ergast/$YEAR",
+    "ergast": "run-s ergast:prepare ergast:download ergast:extract ergast:convert ergast:clean",
+    "ergast:prepare": "mkdir -p ./data/ergast",
+    "ergast:download": "curl http://ergast.com/downloads/f1db_csv.zip -o ./data/ergast/f1db_csv.zip",
+    "ergast:extract": "unzip -o ./data/ergast/f1db_csv.zip -d ./data/ergast",
     "ergast:convert": "ts-node commands/ergast-csv-to-json.ts",
-    "ergast:clean": "rm -rf ./data/ergast/$YEAR/*.zip ./data/ergast/$YEAR/*.csv"
+    "ergast:clean": "rm -rf ./data/ergast/*.zip ./data/ergast/*.csv"
   },
   "dependencies": {
     "moment": "2.29.1",

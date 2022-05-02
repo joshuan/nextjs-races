@@ -5,30 +5,20 @@ import { FileType, getErgastPath } from './lib/paths';
 import { readDir } from './lib/readDir';
 import { writeFile } from './lib/writeFile';
 
-function getYear() {
-    const { YEAR } = process.env;
-
-    if (!YEAR) {
-        throw new Error('Unknown Year!');
-    }
-
-    return YEAR;
-}
-
-async function getFiles(year: string) {
-    return (await readDir(getErgastPath(year)))
+async function getFiles() {
+    return (await readDir(getErgastPath()))
         .filter((file) => path.extname(file) === '.csv');
 }
 
-async function getData(year: string, file: string) {
-    const filepath = getErgastPath(year, file, FileType.CSV);
+async function getData(file: string) {
+    const filepath = getErgastPath(file, FileType.CSV);
 
     return await parseCsv(filepath);
 }
 
-async function putData(year: string, file: string, data: any) {
+async function putData(file: string, data: any) {
     return await writeFile(
-        getErgastPath(year, file, FileType.JSON),
+        getErgastPath(file, FileType.JSON),
         JSON.stringify(data, null, 4),
     );
 }
@@ -51,14 +41,13 @@ function processData(list: unknown): Array<Record<string, string | number>> {
 
 (async function() {
     try {
-        const YEAR = getYear();
-        const files = await getFiles(YEAR);
+        const files = await getFiles();
 
         for (const file of files) {
             const { name } = path.parse(file);
-            const data = await getData(YEAR, name);
+            const data = await getData(name);
 
-            await putData(YEAR, name, processData(data));
+            await putData(name, processData(data));
         }
 
         console.log('Done');
