@@ -2,7 +2,12 @@ import * as path from 'path';
 
 enum Storage {
     Database = 'data',
-    Ergast = 'ergast'
+    Ergast = 'data/ergast',
+}
+
+export enum FileType {
+    CSV = 'csv',
+    JSON = 'json',
 }
 
 function resolve(storage: Storage, file?: string) {
@@ -13,6 +18,8 @@ export function getFilePath(name: string) {
     return resolve(Storage.Database, name);
 }
 
-export function getErgastPath(year: string, filename: string) {
-    return resolve(Storage.Ergast, path.join(year, filename));
+export function getErgastPath(year: string, filename: string = '', type?: FileType) {
+    const filepath = path.join(year, type ? filename + '.' + type : filename);
+
+    return resolve(Storage.Ergast, filepath);
 }
