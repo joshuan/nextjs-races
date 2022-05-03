@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import { IEvent } from '../@types/types';
+import { IEvent } from '../../@types/types';
 
 import { Times } from './TImes';
 import { RaceLine } from './RaceLine';

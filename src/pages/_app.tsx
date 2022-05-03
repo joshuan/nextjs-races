@@ -1,6 +1,7 @@
-import React from 'react';
+import * as React from 'react';
 import type { AppProps } from 'next/app';
 import Router from 'next/router';
+// @ts-expect-error
 import withYM from 'next-ym';
 
 import './style.css';

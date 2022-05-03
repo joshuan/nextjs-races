@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const HOUR = 1000 * 60 * 60;
 

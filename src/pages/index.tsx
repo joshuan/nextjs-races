@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import CitiesPage from './cities';
 import { channels } from '../lib/data';
 

@@ -1,5 +1,5 @@
-import React from 'react';
-import { IEvent } from '../@types/types';
+import * as React from 'react';
+import { IEvent } from '../../@types/types';
 import styles from './RaceLine.module.css';
 
 interface RaceLineProps {

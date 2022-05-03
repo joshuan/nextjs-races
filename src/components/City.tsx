@@ -1,7 +1,7 @@
 import React  from 'react';
 import { RaceDate } from './RaceDate';
-import * as i18n from '../@types/i18n';
-import { IEvent } from '../@types/types';
+import * as i18n from '../../@types/i18n';
+import { IEvent } from '../../@types/types';
 
 interface CityProps {
     name: string;

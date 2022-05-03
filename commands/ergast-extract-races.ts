@@ -1,4 +1,5 @@
-import { ErgastCircuit, ErgastRace } from '../@types/ergast';
+import { ErgastRace } from '../@types/ergast';
+import { YearRace } from '../@types/year-database';
 import { getErgastCircuits, getErgastRaces } from './lib/ergast';
 import { getYearFilePath } from './lib/paths';
 import { writeJsonFile } from './lib/writeJsonFile';
@@ -40,16 +41,6 @@ function makeRaces(item: ErgastRace): { race: string; datetime: string; }[] {
     }
 
     return races;
-}
-
-interface YearRace {
-    series: string;
-    round: number;
-    name: string;
-    datetime: string;
-    url: string;
-    circuit: ErgastCircuit;
-    races: { race: string; datetime: string; }[];
 }
 
 function getYearRaces(year: string | number) {

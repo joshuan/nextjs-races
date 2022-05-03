@@ -1,14 +1,19 @@
-import React from 'react';
+import * as React from 'react';
 import Link from 'next/link';
-import { calendar as data } from '../lib/data';
+import { YearRace } from '../../@types/year-database';
+import { getRaces } from '../lib/races';
 import moment from '../lib/moment';
-import * as i18n from '../@types/i18n';
-import { IEvent, IServerCitiesGroup } from '../@types/types';
+import * as i18n from '../../@types/i18n';
+import { IEvent, IServerCitiesGroup } from '../../@types/types';
 
-function CityDates({ list }: { list: IEvent[] }) {
-    const times = list.map((item) => (new Date(item.startDate)).getTime());
+function RaceDates({ list }: { list: { datetime: string; }[] }) {
+    console.log('... list', list);
+    const times = list.map((item) => (new Date(item.datetime)).getTime());
+    console.log('... times', times);
     const min   = new Date(Math.min(...times));
+    console.log('... min', min);
     const max   = new Date(Math.max(...times));
+    console.log('... max', max);
 
     return <>{moment(min).format('L')} - {moment(max).format('L')}</>;
 }
@@ -29,30 +34,46 @@ function actualizeDates(groups: IServerCitiesGroup[]) {
     });
 }
 
+function isOnThisWeek(race: YearRace): boolean {
+    return moment(race.datetime).isSame(moment(), 'week');
+}
+
+function isOnPast(race: YearRace): boolean {
+    return moment(race.datetime).isBefore(moment());
+}
+
+function isOnFeature(race: YearRace): boolean {
+    return moment(race.datetime).isAfter(moment());
+}
+
 export default function CitiesPage() {
-    const cities = actualizeDates(data);
+    const races = getRaces('f1');
 
     return (
         <div className="cities">
             <table cellSpacing={0}>
                 <tbody>
-                    {cities.map(({ onThisWeek, isPastWeek, isFeatureWeek, city, list }) => {
+                    {races.slice(0, 1).map((race) => {
+                        const onThisWeek = isOnThisWeek(race);
+                        const onPastWeek = !onThisWeek && isOnPast(race);
+                        const onFeatureWeek = !onThisWeek && !onPastWeek && isOnFeature(race);
+
                         const tdClass = onThisWeek ? 'onThisWeek' : (
-                            isPastWeek ? 'isPastWeek' : (
-                                isFeatureWeek ? 'isFeatureWeek' : ''
+                            onPastWeek ? 'isPastWeek' : (
+                                onFeatureWeek ? 'isFeatureWeek' : ''
                             )
                         );
 
                         return (
-                            <tr key={city}>
+                            <tr key={race.round}>
                                 <td className={tdClass}>
-                                    <Link href={`/city/${encodeURIComponent(city)}`}>
-                                        {i18n.Cities[city]}
+                                    <Link href={`/round/${race.round}`}>
+                                        {race.name}
                                     </Link>
                                     {onThisWeek ? ' 🏎 ' : ''}
                                 </td>
                                 <td className={tdClass}>
-                                    <CityDates list={list}/>
+                                    <RaceDates list={race.races}/>
                                 </td>
                             </tr>
                         );

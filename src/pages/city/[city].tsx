@@ -5,7 +5,7 @@ import { calendar as data } from "../../lib/data";
 import City from "../../components/City";
 import WeekLine from '../../components/WeekLine';
 import Map from '../../components/Map';
-import * as i18n from '../../@types/i18n';
+import * as i18n from '../../../@types/i18n';
 
 function getEvents(city: string) {
     const found = data.find((item) => {
