@@ -1,0 +1,970 @@
+[
+    {
+        "series": "f1",
+        "round": 1,
+        "name": "Bahrain Grand Prix",
+        "datetime": "2022-03-20T15:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix",
+        "circuit": {
+            "circuitId": 3,
+            "circuitRef": "bahrain",
+            "name": "Bahrain International Circuit",
+            "location": "Sakhir",
+            "country": "Bahrain",
+            "lat": "26.0325",
+            "lng": "50.5106",
+            "alt": 7,
+            "url": "http://en.wikipedia.org/wiki/Bahrain_International_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-03-18T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-03-18T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-03-19T12:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-03-19T15:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-03-20T15:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 2,
+        "name": "Saudi Arabian Grand Prix",
+        "datetime": "2022-03-27T17:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix",
+        "circuit": {
+            "circuitId": 77,
+            "circuitRef": "jeddah",
+            "name": "Jeddah Corniche Circuit",
+            "location": "Jeddah",
+            "country": "Saudi Arabia",
+            "lat": "21.6319",
+            "lng": "39.1044",
+            "alt": 15,
+            "url": "http://en.wikipedia.org/wiki/Jeddah_Street_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-03-25T14:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-03-25T17:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-03-26T14:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-03-26T17:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-03-27T17:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 3,
+        "name": "Australian Grand Prix",
+        "datetime": "2022-04-10T05:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Australian_Grand_Prix",
+        "circuit": {
+            "circuitId": 1,
+            "circuitRef": "albert_park",
+            "name": "Albert Park Grand Prix Circuit",
+            "location": "Melbourne",
+            "country": "Australia",
+            "lat": "-37.8497",
+            "lng": "144.968",
+            "alt": 10,
+            "url": "http://en.wikipedia.org/wiki/Melbourne_Grand_Prix_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-04-08T03:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-04-08T06:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-04-09T03:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-04-09T06:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-04-10T05:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 4,
+        "name": "Emilia Romagna Grand Prix",
+        "datetime": "2022-04-24T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix",
+        "circuit": {
+            "circuitId": 21,
+            "circuitRef": "imola",
+            "name": "Autodromo Enzo e Dino Ferrari",
+            "location": "Imola",
+            "country": "Italy",
+            "lat": "44.3439",
+            "lng": "11.7167",
+            "alt": 37,
+            "url": "http://en.wikipedia.org/wiki/Autodromo_Enzo_e_Dino_Ferrari"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-04-22T11:30:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-04-23T10:30:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-04-22T15:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "2022-04-23T14:30:00.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-04-24T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 5,
+        "name": "Miami Grand Prix",
+        "datetime": "2022-05-08T19:30:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Miami_Grand_Prix",
+        "circuit": {
+            "circuitId": 79,
+            "circuitRef": "miami",
+            "name": "Miami International Autodrome",
+            "location": "Miami",
+            "country": "USA",
+            "lat": "25.9581",
+            "lng": "-80.2389",
+            "alt": "\\N",
+            "url": "http://en.wikipedia.org/wiki/Miami_International_Autodrome"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-05-06T18:30:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-05-06T21:30:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-05-07T17:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-05-07T20:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-05-08T19:30:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 6,
+        "name": "Spanish Grand Prix",
+        "datetime": "2022-05-22T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix",
+        "circuit": {
+            "circuitId": 4,
+            "circuitRef": "catalunya",
+            "name": "Circuit de Barcelona-Catalunya",
+            "location": "Montmeló",
+            "country": "Spain",
+            "lat": "41.57",
+            "lng": "2.26111",
+            "alt": 109,
+            "url": "http://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-05-20T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-05-20T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-05-21T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-05-21T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-05-22T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 7,
+        "name": "Monaco Grand Prix",
+        "datetime": "2022-05-29T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix",
+        "circuit": {
+            "circuitId": 6,
+            "circuitRef": "monaco",
+            "name": "Circuit de Monaco",
+            "location": "Monte-Carlo",
+            "country": "Monaco",
+            "lat": "43.7347",
+            "lng": "7.42056",
+            "alt": 7,
+            "url": "http://en.wikipedia.org/wiki/Circuit_de_Monaco"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-05-27T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-05-27T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-05-28T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-05-28T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-05-29T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 8,
+        "name": "Azerbaijan Grand Prix",
+        "datetime": "2022-06-12T11:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix",
+        "circuit": {
+            "circuitId": 73,
+            "circuitRef": "BAK",
+            "name": "Baku City Circuit",
+            "location": "Baku",
+            "country": "Azerbaijan",
+            "lat": "40.3725",
+            "lng": "49.8533",
+            "alt": "-7",
+            "url": "http://en.wikipedia.org/wiki/Baku_City_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-06-10T11:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-06-10T14:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-06-11T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-06-11T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-06-12T11:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 9,
+        "name": "Canadian Grand Prix",
+        "datetime": "2022-06-19T18:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Canadian_Grand_Prix",
+        "circuit": {
+            "circuitId": 7,
+            "circuitRef": "villeneuve",
+            "name": "Circuit Gilles Villeneuve",
+            "location": "Montreal",
+            "country": "Canada",
+            "lat": "45.5",
+            "lng": "-73.5228",
+            "alt": 13,
+            "url": "http://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-06-17T18:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-06-17T21:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-06-18T17:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-06-18T20:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-06-19T18:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 10,
+        "name": "British Grand Prix",
+        "datetime": "2022-07-03T14:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_British_Grand_Prix",
+        "circuit": {
+            "circuitId": 9,
+            "circuitRef": "silverstone",
+            "name": "Silverstone Circuit",
+            "location": "Silverstone",
+            "country": "UK",
+            "lat": "52.0786",
+            "lng": "-1.01694",
+            "alt": 153,
+            "url": "http://en.wikipedia.org/wiki/Silverstone_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-07-01T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-07-01T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-07-02T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-07-02T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-07-03T14:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 11,
+        "name": "Austrian Grand Prix",
+        "datetime": "2022-07-10T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix",
+        "circuit": {
+            "circuitId": 70,
+            "circuitRef": "red_bull_ring",
+            "name": "Red Bull Ring",
+            "location": "Spielberg",
+            "country": "Austria",
+            "lat": "47.2197",
+            "lng": "14.7647",
+            "alt": 678,
+            "url": "http://en.wikipedia.org/wiki/Red_Bull_Ring"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-07-08T11:30:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-07-09T10:30:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-07-08T15:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "2022-07-09T14:30:00.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-07-10T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 12,
+        "name": "French Grand Prix",
+        "datetime": "2022-07-24T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_French_Grand_Prix",
+        "circuit": {
+            "circuitId": 34,
+            "circuitRef": "ricard",
+            "name": "Circuit Paul Ricard",
+            "location": "Le Castellet",
+            "country": "France",
+            "lat": "43.2506",
+            "lng": "5.79167",
+            "alt": 432,
+            "url": "http://en.wikipedia.org/wiki/Paul_Ricard_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-07-22T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-07-22T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-07-23T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-07-23T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-07-24T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 13,
+        "name": "Hungarian Grand Prix",
+        "datetime": "2022-07-31T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix",
+        "circuit": {
+            "circuitId": 11,
+            "circuitRef": "hungaroring",
+            "name": "Hungaroring",
+            "location": "Budapest",
+            "country": "Hungary",
+            "lat": "47.5789",
+            "lng": "19.2486",
+            "alt": 264,
+            "url": "http://en.wikipedia.org/wiki/Hungaroring"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-07-29T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-07-29T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-07-30T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-07-30T15:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-07-31T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 14,
+        "name": "Belgian Grand Prix",
+        "datetime": "2022-08-28T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix",
+        "circuit": {
+            "circuitId": 13,
+            "circuitRef": "spa",
+            "name": "Circuit de Spa-Francorchamps",
+            "location": "Spa",
+            "country": "Belgium",
+            "lat": "50.4372",
+            "lng": "5.97139",
+            "alt": 401,
+            "url": "http://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-08-26T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-08-26T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-08-27T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-08-27T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-08-28T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 15,
+        "name": "Dutch Grand Prix",
+        "datetime": "2022-09-04T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix",
+        "circuit": {
+            "circuitId": 39,
+            "circuitRef": "zandvoort",
+            "name": "Circuit Park Zandvoort",
+            "location": "Zandvoort",
+            "country": "Netherlands",
+            "lat": "52.3888",
+            "lng": "4.54092",
+            "alt": 6,
+            "url": "http://en.wikipedia.org/wiki/Circuit_Zandvoort"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-09-02T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-09-02T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-09-03T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-09-03T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-09-04T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 16,
+        "name": "Italian Grand Prix",
+        "datetime": "2022-09-11T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Italian_Grand_Prix",
+        "circuit": {
+            "circuitId": 14,
+            "circuitRef": "monza",
+            "name": "Autodromo Nazionale di Monza",
+            "location": "Monza",
+            "country": "Italy",
+            "lat": "45.6156",
+            "lng": "9.28111",
+            "alt": 162,
+            "url": "http://en.wikipedia.org/wiki/Autodromo_Nazionale_Monza"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-09-09T12:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-09-09T15:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-09-10T11:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-09-10T14:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-09-11T13:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 17,
+        "name": "Singapore Grand Prix",
+        "datetime": "2022-10-02T12:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix",
+        "circuit": {
+            "circuitId": 15,
+            "circuitRef": "marina_bay",
+            "name": "Marina Bay Street Circuit",
+            "location": "Marina Bay",
+            "country": "Singapore",
+            "lat": "1.2914",
+            "lng": "103.864",
+            "alt": 18,
+            "url": "http://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-09-30T10:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-09-30T13:30:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-10-01T10:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-10-01T13:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-10-02T12:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 18,
+        "name": "Japanese Grand Prix",
+        "datetime": "2022-10-09T05:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix",
+        "circuit": {
+            "circuitId": 22,
+            "circuitRef": "suzuka",
+            "name": "Suzuka Circuit",
+            "location": "Suzuka",
+            "country": "Japan",
+            "lat": "34.8431",
+            "lng": "136.541",
+            "alt": 45,
+            "url": "http://en.wikipedia.org/wiki/Suzuka_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-10-07T04:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-10-07T08:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-10-08T04:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-10-08T07:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-10-09T05:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 19,
+        "name": "United States Grand Prix",
+        "datetime": "2022-10-23T19:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_United_States_Grand_Prix",
+        "circuit": {
+            "circuitId": 69,
+            "circuitRef": "americas",
+            "name": "Circuit of the Americas",
+            "location": "Austin",
+            "country": "USA",
+            "lat": "30.1328",
+            "lng": "-97.6411",
+            "alt": 161,
+            "url": "http://en.wikipedia.org/wiki/Circuit_of_the_Americas"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-10-21T19:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-10-21T22:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-10-22T19:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-10-22T22:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-10-23T19:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 20,
+        "name": "Mexico City Grand Prix",
+        "datetime": "2022-10-30T20:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Mexican_Grand_Prix",
+        "circuit": {
+            "circuitId": 32,
+            "circuitRef": "rodriguez",
+            "name": "Autódromo Hermanos Rodríguez",
+            "location": "Mexico City",
+            "country": "Mexico",
+            "lat": "19.4042",
+            "lng": "-99.0907",
+            "alt": 2227,
+            "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-10-28T18:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-10-28T21:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-10-29T17:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-10-29T20:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-10-30T20:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 21,
+        "name": "Brazilian Grand Prix",
+        "datetime": "2022-11-13T18:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Brazilian_Grand_Prix",
+        "circuit": {
+            "circuitId": 18,
+            "circuitRef": "interlagos",
+            "name": "Autódromo José Carlos Pace",
+            "location": "São Paulo",
+            "country": "Brazil",
+            "lat": "-23.7036",
+            "lng": "-46.6997",
+            "alt": 785,
+            "url": "http://en.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-11-11T15:30:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-11-12T15:30:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-11-11T19:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "2022-11-12T19:30:00.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-11-13T18:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "series": "f1",
+        "round": 22,
+        "name": "Abu Dhabi Grand Prix",
+        "datetime": "2022-11-20T13:00:00",
+        "url": "http://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix",
+        "circuit": {
+            "circuitId": 24,
+            "circuitRef": "yas_marina",
+            "name": "Yas Marina Circuit",
+            "location": "Abu Dhabi",
+            "country": "UAE",
+            "lat": "24.4672",
+            "lng": "54.6031",
+            "alt": 3,
+            "url": "http://en.wikipedia.org/wiki/Yas_Marina_Circuit"
+        },
+        "races": [
+            {
+                "race": "fp1",
+                "datetime": "2022-11-18T09:00:00.000Z"
+            },
+            {
+                "race": "fp2",
+                "datetime": "2022-11-18T12:00:00.000Z"
+            },
+            {
+                "race": "fp3",
+                "datetime": "2022-11-19T10:00:00.000Z"
+            },
+            {
+                "race": "quali",
+                "datetime": "2022-11-19T13:00:00.000Z"
+            },
+            {
+                "race": "sprint",
+                "datetime": "\\NT\\N.000Z"
+            },
+            {
+                "race": "grandprix",
+                "datetime": "2022-11-20T13:00:00.000Z"
+            }
+        ]
+    }
+]

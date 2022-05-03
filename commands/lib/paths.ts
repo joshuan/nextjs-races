@@ -18,6 +18,10 @@ export function getFilePath(name: string) {
     return resolve(Storage.Database, name);
 }
 
+export function getYearFilePath(year: string | number, name: string) {
+    return resolve(Storage.Database, path.join(`${year}`, name));
+}
+
 export function getErgastPath(filename: string = '', type?: FileType) {
     const filepath = path.join(type ? filename + '.' + type : filename);
 
