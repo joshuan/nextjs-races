@@ -1,11 +1,11 @@
-import { ErgastRace } from '../@types/ergast';
+import { IErgastRace } from '../@types/ergast';
 import { YearRace } from '../@types/year-database';
 import { getErgastCircuits, getErgastRaces } from './lib/ergast';
 import { getYearFilePath } from './lib/paths';
 import { writeJsonFile } from './lib/writeJsonFile';
 
-function makeTime(date: string, time: string): string {
-    return `${date}T${time}.000Z`;
+function makeTime(date: string, time: string | null): string {
+    return `${date}T${time || '00:00:00'}.000Z`;
 }
 
 const circuits = getErgastCircuits();
@@ -18,7 +18,7 @@ function getCircuit(id: number) {
     return circuits[id];
 }
 
-function makeRaces(item: ErgastRace): { race: string; datetime: string; }[] {
+function makeRaces(item: IErgastRace): { race: string; datetime: string; }[] {
     const races = [];
 
     if (item.fp1_date) {

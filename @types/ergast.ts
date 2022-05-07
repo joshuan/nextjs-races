@@ -1,4 +1,4 @@
-export interface ErgastRace {
+export interface IErgastRace {
     raceId: number;
     year: number;
     round: number;
@@ -7,19 +7,19 @@ export interface ErgastRace {
     date: string;
     time: string;
     url: string;
-    fp1_date: string;
-    fp1_time: string;
-    fp2_date: string;
-    fp2_time: string;
-    fp3_date: string;
-    fp3_time: string;
-    quali_date: string;
-    quali_time: string;
-    sprint_date: string;
-    sprint_time: string;
+    fp1_date: string | null;
+    fp1_time: string | null;
+    fp2_date: string | null;
+    fp2_time: string | null;
+    fp3_date: string | null;
+    fp3_time: string | null;
+    quali_date: string | null;
+    quali_time: string | null;
+    sprint_date: string | null;
+    sprint_time: string | null;
 }
 
-export interface ErgastCircuit {
+export interface IErgastCircuit {
     circuitId: number;
     circuitRef: string;
     name: string;

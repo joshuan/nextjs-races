@@ -16,7 +16,8 @@
     "ergast:download": "curl http://ergast.com/downloads/f1db_csv.zip -o ./data/ergast/f1db_csv.zip",
     "ergast:extract": "unzip -o ./data/ergast/f1db_csv.zip -d ./data/ergast",
     "ergast:convert": "ts-node commands/ergast-csv-to-json.ts",
-    "ergast:clean": "rm -rf ./data/ergast/*.zip ./data/ergast/*.csv"
+    "ergast:clean": "rm -rf ./data/ergast/*.zip ./data/ergast/*.csv",
+    "ergast:db": "ts-node commands/ergast-extract-races.ts"
   },
   "dependencies": {
     "moment": "2.29.1",

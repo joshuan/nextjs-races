@@ -10,16 +10,24 @@ export type TSeries =
 
 export type TRaces =
     'p' |
-    'p1' |
-    'p2' |
-    'p3' |
-    'q' |
+    'fp1' |
+    'fp2' |
+    'fp3' |
+    'quali' |
     'sprint' |
     'grandprix' |
     'race' |
     'race1' |
     'race2' |
     'race3' ;
+
+export type TRaceNames =
+    'FirstPractice' |
+    'SecondPractice' |
+    'ThirdPractice' |
+    'Qualifying' |
+    'Sprint' |
+    'GrandPrix' ;
 
 export type TChannels =
     'sportbox' |

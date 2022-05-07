@@ -34,10 +34,6 @@
                 "datetime": "2022-03-19T15:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-03-20T15:00:00.000Z"
             }
@@ -76,10 +72,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-03-26T17:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -122,10 +114,6 @@
                 "datetime": "2022-04-09T06:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-04-10T05:00:00.000Z"
             }
@@ -158,10 +146,6 @@
                 "datetime": "2022-04-23T10:30:00.000Z"
             },
             {
-                "race": "fp3",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "quali",
                 "datetime": "2022-04-22T15:00:00.000Z"
             },
@@ -189,7 +173,7 @@
             "country": "USA",
             "lat": "25.9581",
             "lng": "-80.2389",
-            "alt": "\\N",
+            "alt": null,
             "url": "http://en.wikipedia.org/wiki/Miami_International_Autodrome"
         },
         "races": [
@@ -208,10 +192,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-05-07T20:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -254,10 +234,6 @@
                 "datetime": "2022-05-21T14:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-05-22T13:00:00.000Z"
             }
@@ -296,10 +272,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-05-28T14:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -342,10 +314,6 @@
                 "datetime": "2022-06-11T14:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-06-12T11:00:00.000Z"
             }
@@ -384,10 +352,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-06-18T20:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -430,10 +394,6 @@
                 "datetime": "2022-07-02T14:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-07-03T14:00:00.000Z"
             }
@@ -464,10 +424,6 @@
             {
                 "race": "fp2",
                 "datetime": "2022-07-09T10:30:00.000Z"
-            },
-            {
-                "race": "fp3",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "quali",
@@ -518,10 +474,6 @@
                 "datetime": "2022-07-23T14:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-07-24T13:00:00.000Z"
             }
@@ -560,10 +512,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-07-30T15:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -606,10 +554,6 @@
                 "datetime": "2022-08-27T14:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-08-28T13:00:00.000Z"
             }
@@ -648,10 +592,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-09-03T14:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -694,10 +634,6 @@
                 "datetime": "2022-09-10T14:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-09-11T13:00:00.000Z"
             }
@@ -736,10 +672,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-10-01T13:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -782,10 +714,6 @@
                 "datetime": "2022-10-08T07:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-10-09T05:00:00.000Z"
             }
@@ -824,10 +752,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-10-22T22:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",
@@ -870,10 +794,6 @@
                 "datetime": "2022-10-29T20:00:00.000Z"
             },
             {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
-            },
-            {
                 "race": "grandprix",
                 "datetime": "2022-10-30T20:00:00.000Z"
             }
@@ -904,10 +824,6 @@
             {
                 "race": "fp2",
                 "datetime": "2022-11-12T15:30:00.000Z"
-            },
-            {
-                "race": "fp3",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "quali",
@@ -956,10 +872,6 @@
             {
                 "race": "quali",
                 "datetime": "2022-11-19T13:00:00.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
             },
             {
                 "race": "grandprix",

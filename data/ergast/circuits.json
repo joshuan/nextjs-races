@@ -854,7 +854,7 @@
         "country": "Qatar",
         "lat": "25.49",
         "lng": "51.4542",
-        "alt": "\\N",
+        "alt": null,
         "url": "http://en.wikipedia.org/wiki/Losail_International_Circuit"
     },
     {
@@ -865,7 +865,7 @@
         "country": "USA",
         "lat": "25.9581",
         "lng": "-80.2389",
-        "alt": "\\N",
+        "alt": null,
         "url": "http://en.wikipedia.org/wiki/Miami_International_Autodrome"
     }
 ]

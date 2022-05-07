@@ -1,13 +1,12 @@
-import { ErgastCircuit } from './ergast';
-
-export type Series = 'f1' | 'f2' | 'f3';
+import { IErgastCircuit } from './ergast';
+import { TRaces, TSeries } from './fields';
 
 export interface YearRace {
-    series: Series;
+    series: TSeries;
     round: number;
     name: string;
     datetime: string;
     url: string;
-    circuit: ErgastCircuit;
-    races: { race: string; datetime: string; }[];
+    circuit: IErgastCircuit;
+    races: { race: TRaces; datetime: string; }[];
 }

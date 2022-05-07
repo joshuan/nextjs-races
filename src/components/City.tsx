@@ -17,9 +17,7 @@ export default function City({ name, events, hoveredEventUid, onEventHover, onEv
             <tr>
                 <td colSpan={5} className="city">
                     <h2 id={name}>
-                        <a href={`#${name}`}>
-                            {name}
-                        </a>
+                        {name}
                     </h2>
                 </td>
             </tr>

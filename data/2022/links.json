@@ -197,7 +197,7 @@
     "race": "Race1",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239667?list=263d14b191817d1926"
+    "link": "https://vk.com/video-88310283_456239667"
   },
   {
     "series": "f2",
@@ -205,7 +205,7 @@
     "race": "Race1",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239671?list=1e0788e266728c01b7"
+    "link": "https://vk.com/video-88310283_456239671"
   },
   {
     "series": "f3",
@@ -213,7 +213,7 @@
     "race": "Race2",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239675?list=cf6daa5fd76dcca589"
+    "link": "https://vk.com/video-88310283_456239675"
   },
   {
     "series": "f2",
@@ -221,7 +221,7 @@
     "race": "Race2",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239676?list=1cc7785108057a48c3"
+    "link": "https://vk.com/video-88310283_456239676"
   },
   {
     "series": "f1",
@@ -229,7 +229,7 @@
     "race": "Race2",
     "type": "overview",
     "channel": "samiesliki",
-    "link": "https://vk.com/video-88310283_456239695?list=9f5cff49ba00cee06d"
+    "link": "https://vk.com/video-88310283_456239695"
   },
   {
     "series": "f2",
@@ -277,7 +277,7 @@
     "race": "Q",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239728?list=83b74a87b1be08ec93"
+    "link": "https://vk.com/video-88310283_456239728"
   },
   {
     "series": "f3",
@@ -285,7 +285,7 @@
     "race": "Sprint",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239732?list=7cd993b8e194c12a50"
+    "link": "https://vk.com/video-88310283_456239732"
   },
   {
     "series": "f3",
@@ -293,7 +293,7 @@
     "race": "Race",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239738?list=65f9a7d34d7ca3b779"
+    "link": "https://vk.com/video-88310283_456239738"
   },
   {
     "series": "f2",
@@ -317,7 +317,7 @@
     "race": "Q",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239729?list=77451bd5e91d0afe09"
+    "link": "https://vk.com/video-88310283_456239729"
   },
   {
     "series": "f2",
@@ -325,7 +325,7 @@
     "race": "Sprint",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239737?list=109a5359211a6478ab"
+    "link": "https://vk.com/video-88310283_456239737"
   },
   {
     "series": "f2",
@@ -333,6 +333,22 @@
     "race": "Race",
     "type": "broadcast",
     "channel": "beonedge",
-    "link": "https://vk.com/video-88310283_456239740?list=dd8c7bf842a53d9a07"
+    "link": "https://vk.com/video-88310283_456239740"
+  },
+  {
+    "series": "f1",
+    "round": 5,
+    "race": "FirstPractice",
+    "type": "broadcast",
+    "channel": "beonedge",
+    "link": "https://vk.com/video-88310283_456239780"
+  },
+  {
+    "series": "f1",
+    "round": 5,
+    "race": "SecondPractice",
+    "type": "broadcast",
+    "channel": "beonedge",
+    "link": "https://vk.com/video-88310283_456239782"
   }
 ]

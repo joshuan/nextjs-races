@@ -19,23 +19,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-04-16T\\N.000Z"
+                "datetime": "2021-04-16T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-04-16T\\N.000Z"
+                "datetime": "2021-04-16T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-04-17T\\N.000Z"
+                "datetime": "2021-04-17T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-04-17T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-04-17T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -63,23 +59,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-03-26T\\N.000Z"
+                "datetime": "2021-03-26T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-03-26T\\N.000Z"
+                "datetime": "2021-03-26T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-03-27T\\N.000Z"
+                "datetime": "2021-03-27T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-03-27T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-03-27T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -101,29 +93,25 @@
             "country": "Qatar",
             "lat": "25.49",
             "lng": "51.4542",
-            "alt": "\\N",
+            "alt": null,
             "url": "http://en.wikipedia.org/wiki/Losail_International_Circuit"
         },
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-11-19T\\N.000Z"
+                "datetime": "2021-11-19T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-11-19T\\N.000Z"
+                "datetime": "2021-11-19T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-11-20T\\N.000Z"
+                "datetime": "2021-11-20T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-11-20T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-11-20T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -151,23 +139,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-04-30T\\N.000Z"
+                "datetime": "2021-04-30T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-04-30T\\N.000Z"
+                "datetime": "2021-04-30T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-05-01T\\N.000Z"
+                "datetime": "2021-05-01T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-05-01T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-05-01T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -195,23 +179,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-05-07T\\N.000Z"
+                "datetime": "2021-05-07T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-05-07T\\N.000Z"
+                "datetime": "2021-05-07T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-05-08T\\N.000Z"
+                "datetime": "2021-05-08T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-05-08T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-05-08T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -239,23 +219,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-05-21T\\N.000Z"
+                "datetime": "2021-05-21T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-05-21T\\N.000Z"
+                "datetime": "2021-05-21T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-05-22T\\N.000Z"
+                "datetime": "2021-05-22T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-05-22T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-05-22T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -283,23 +259,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-06-04T\\N.000Z"
+                "datetime": "2021-06-04T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-06-04T\\N.000Z"
+                "datetime": "2021-06-04T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-06-05T\\N.000Z"
+                "datetime": "2021-06-05T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-06-05T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-06-05T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -327,23 +299,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-06-25T\\N.000Z"
+                "datetime": "2021-06-25T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-06-25T\\N.000Z"
+                "datetime": "2021-06-25T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-06-26T\\N.000Z"
+                "datetime": "2021-06-26T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-06-26T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-06-26T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -371,23 +339,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-06-18T\\N.000Z"
+                "datetime": "2021-06-18T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-06-18T\\N.000Z"
+                "datetime": "2021-06-18T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-06-19T\\N.000Z"
+                "datetime": "2021-06-19T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-06-19T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-06-19T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -415,23 +379,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-07-02T\\N.000Z"
+                "datetime": "2021-07-02T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-07-02T\\N.000Z"
+                "datetime": "2021-07-02T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-07-03T\\N.000Z"
+                "datetime": "2021-07-03T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-07-03T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-07-03T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -459,23 +419,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-07-16T\\N.000Z"
+                "datetime": "2021-07-16T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-07-17T\\N.000Z"
-            },
-            {
-                "race": "fp3",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-07-17T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-07-16T\\N.000Z"
+                "datetime": "2021-07-16T00:00:00.000Z"
             },
             {
                 "race": "sprint",
-                "datetime": "2021-07-17T\\N.000Z"
+                "datetime": "2021-07-17T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -503,23 +459,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-07-30T\\N.000Z"
+                "datetime": "2021-07-30T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-07-30T\\N.000Z"
+                "datetime": "2021-07-30T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-07-31T\\N.000Z"
+                "datetime": "2021-07-31T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-07-31T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-07-31T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -547,23 +499,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-08-27T\\N.000Z"
+                "datetime": "2021-08-27T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-08-27T\\N.000Z"
+                "datetime": "2021-08-27T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-08-28T\\N.000Z"
+                "datetime": "2021-08-28T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-08-28T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-08-28T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -591,23 +539,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-09-03T\\N.000Z"
+                "datetime": "2021-09-03T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-09-03T\\N.000Z"
+                "datetime": "2021-09-03T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-09-04T\\N.000Z"
+                "datetime": "2021-09-04T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-09-04T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-09-04T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -635,23 +579,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-09-10T\\N.000Z"
+                "datetime": "2021-09-10T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-09-11T\\N.000Z"
-            },
-            {
-                "race": "fp3",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-09-11T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-09-10T\\N.000Z"
+                "datetime": "2021-09-10T00:00:00.000Z"
             },
             {
                 "race": "sprint",
-                "datetime": "2021-09-11T\\N.000Z"
+                "datetime": "2021-09-11T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -679,23 +619,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-09-24T\\N.000Z"
+                "datetime": "2021-09-24T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-09-24T\\N.000Z"
+                "datetime": "2021-09-24T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-09-25T\\N.000Z"
+                "datetime": "2021-09-25T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-09-25T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-09-25T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -723,23 +659,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-10-08T\\N.000Z"
+                "datetime": "2021-10-08T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-10-08T\\N.000Z"
+                "datetime": "2021-10-08T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-10-09T\\N.000Z"
+                "datetime": "2021-10-09T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-10-09T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-10-09T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -767,23 +699,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-10-22T\\N.000Z"
+                "datetime": "2021-10-22T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-10-22T\\N.000Z"
+                "datetime": "2021-10-22T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-10-23T\\N.000Z"
+                "datetime": "2021-10-23T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-10-23T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-10-23T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -811,23 +739,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-11-05T\\N.000Z"
+                "datetime": "2021-11-05T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-11-05T\\N.000Z"
+                "datetime": "2021-11-05T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-11-06T\\N.000Z"
+                "datetime": "2021-11-06T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-11-06T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-11-06T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -855,23 +779,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-11-12T\\N.000Z"
+                "datetime": "2021-11-12T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-11-13T\\N.000Z"
-            },
-            {
-                "race": "fp3",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-11-13T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-11-12T\\N.000Z"
+                "datetime": "2021-11-12T00:00:00.000Z"
             },
             {
                 "race": "sprint",
-                "datetime": "2021-11-13T\\N.000Z"
+                "datetime": "2021-11-13T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -899,23 +819,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-12-03T\\N.000Z"
+                "datetime": "2021-12-03T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-12-03T\\N.000Z"
+                "datetime": "2021-12-03T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-12-04T\\N.000Z"
+                "datetime": "2021-12-04T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-12-04T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-12-04T00:00:00.000Z"
             },
             {
                 "race": "grandprix",
@@ -943,23 +859,19 @@
         "races": [
             {
                 "race": "fp1",
-                "datetime": "2021-12-10T\\N.000Z"
+                "datetime": "2021-12-10T00:00:00.000Z"
             },
             {
                 "race": "fp2",
-                "datetime": "2021-12-10T\\N.000Z"
+                "datetime": "2021-12-10T00:00:00.000Z"
             },
             {
                 "race": "fp3",
-                "datetime": "2021-12-11T\\N.000Z"
+                "datetime": "2021-12-11T00:00:00.000Z"
             },
             {
                 "race": "quali",
-                "datetime": "2021-12-11T\\N.000Z"
-            },
-            {
-                "race": "sprint",
-                "datetime": "\\NT\\N.000Z"
+                "datetime": "2021-12-11T00:00:00.000Z"
             },
             {
                 "race": "grandprix",

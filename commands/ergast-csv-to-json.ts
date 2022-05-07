@@ -23,7 +23,7 @@ async function putData(file: string, data: any) {
     );
 }
 
-function processData(list: unknown): Array<Record<string, string | number>> {
+function processData(list: unknown): Array<Record<string, string | number | null>> {
     if (!Array.isArray(list)) {
         throw new Error('Must be array');
     }
@@ -32,6 +32,8 @@ function processData(list: unknown): Array<Record<string, string | number>> {
         for (const key in item) {
             if (/^\d+$/.test(item[key])) {
                 item[key] = parseInt(item[key], 10);
+            } else if (item[key] === '\\N') {
+                item[key] = null;
             }
         }
 
@@ -41,7 +43,7 @@ function processData(list: unknown): Array<Record<string, string | number>> {
 
 (async function() {
     try {
-        const files = await getFiles();
+        let files = await getFiles();
 
         for (const file of files) {
             const { name } = path.parse(file);
